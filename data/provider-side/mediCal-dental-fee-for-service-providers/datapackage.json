@@ -1,0 +1,224 @@
+{
+  "accrual_periodicity": "other",
+  "additional_limitations": "",
+  "citation": "",
+  "contact_email": "opendata@dhcs.ca.gov",
+  "data_collection_tool": "",
+  "data_license": "Terms of Use",
+  "de_identification_method": "http://www.dhcs.ca.gov/dataandstats/Pages/PublicReportingGuidelines.aspx",
+  "description": "The dataset provides enrollment and geographic data for Fee-for-Service (FFS) providers enrolled in the Medi-Cal Dental program and Safety Net Clinics (SNCs) who provide dental services. The data is based on a point in time and is expected to be updated biannually. The enrollment and SNC data is as of October 2025. This dataset does not include Dental Managed Care providers.",
+  "geo_coverage": "In State",
+  "geographic_granularity": "zip code",
+  "keywords": [
+    "SNC",
+    "Safety Net Clinics",
+    "dental",
+    "dhcs",
+    "fee-for-service provider",
+    "ffs"
+  ],
+  "limitations": "Limitations",
+  "name": "profile-of-enrolled-medi-cal-dental-fee-for-service-ffs-providers-and-safety-net-clinics-sncs",
+  "program_web_page": "https://www.denti-cal.ca.gov/",
+  "related_resources": "",
+  "resources": [
+    {
+      "description": "The dataset provides enrollment and geographic data for Fee-for-Service (FFS) providers enrolled in the Medi-Cal Dental program and Safety Net Clinics (SNCs) who provide dental services. The data is based on a point in time and is expected to be updated biannually. The enrollment and SNC data is as of October 2025. This dataset does not include Dental Managed Care providers.",
+      "format": "CSV",
+      "hash": "62d7e01573e9e8c2479765047b0db5ab",
+      "name": "profile-of-enrolled-medi-cal-dental-fee-for-service-ffs-providers-and-safety-net-clinics-sncs",
+      "path": "profile-of-enrolled-medi-cal-dental-fee-for-service-ffs-providers-and-safety-net-clinics-sncs.csv",
+      "schema": {
+        "fields": [
+          {
+            "description": "National Provider Identifier is a unique identification number issued to health care providers by the Centers for Medicare and Medicaid Services (CMS).",
+            "name": "Provider NPI",
+            "title": "Provider NPI",
+            "type": "string"
+          },
+          {
+            "description": "Billing provider NPI or number. For rendering providers this represents the office where the services were rendered.",
+            "name": "Billing Provider Number",
+            "title": "Billing Provider Number",
+            "type": "string"
+          },
+          {
+            "description": "Service location number of the billing provider.",
+            "name": "Service Location Number",
+            "title": "Service Location Number",
+            "type": "string"
+          },
+          {
+            "description": "Full legal name of the provider.",
+            "name": "Provider Legal Name",
+            "title": "Provider Legal Name",
+            "type": "string"
+          },
+          {
+            "description": "Indicates effective date of provider enrollment.",
+            "name": "Enrollment Status Effective Date",
+            "title": "Enrollment Status Effective Date",
+            "type": "string"
+          },
+          {
+            "description": "Classification of the provider type.\r\n\r\nB=Billing Provider\r\n\r\nR=Rendering Provider\r\n\r\nC=Safety Net Clinic (SNC)\r\n\r\nRC=Rendering Provider at SNC",
+            "name": "Provider Type Code",
+            "title": "Provider Type Code",
+            "type": "string"
+          },
+          {
+            "description": "Description of Provider Type Code.",
+            "name": "Provider Type Code Desc",
+            "title": "Provider Type Code Desc",
+            "type": "string"
+          },
+          {
+            "description": "Dental provider’s principal reported area of specialization:\r\n\r\n\r\n00=General Practitioner (Dentists Only)\r\n\r\n01=General Practice\r\n\r\n02=General Surgery\r\n\r\n04=Otology, Laryngology, Rhinology\r\n\r\n05=Anesthesiology\r\n\r\n08=Family Practice\r\n\r\n10=Oral Surgeon\r\n\r\n15=Endodontist\r\n\r\n20=Orthodontist\r\n\r\n24=Plastic Surgery\r\n\r\n25=Cert. Orthodontist\r\n\r\n30=Pedodontist\r\n\r\n40=Periodontist\r\n\r\n47=Miscellaneous\r\n\r\n50=Prosthodontist\r\n\r\n60=Oral Pathologist\r\n\r\n66=Emergency Medicine (Urgent Care)\r\n\r\n70=Public Health\r\n\r\n80=Full-Time Faculty\r\n\r\n85=Surgery-Pediatric\r\n\r\n90=Registered Dental Hygienist (RDHAP)\r\n\r\nBlank=Data not available",
+            "name": "Provider Specialty Code",
+            "title": "Provider Specialty Code",
+            "type": "string"
+          },
+          {
+            "description": "Description of Provider Specialty Code.",
+            "name": "Provider Specialty Code Desc",
+            "title": "Provider Specialty Code Desc",
+            "type": "string"
+          },
+          {
+            "description": "Provider Language Spoken Code:\r\n\r\nD=Cambodian\r\n\r\n2=Cantonese\r\n\r\nC=Chinese\r\n\r\n7=English\r\n\r\nU=Farsi\r\n\r\nW=Hindi\r\n\r\nH=Hmong\r\n\r\n3=Japanese\r\n\r\n4=Korean\r\n\r\nI=Laotian\r\n\r\nB=Mandarin\r\n\r\nX=Punjabi\r\n\r\nN=Russian\r\n\r\n1=Spanish\r\n\r\n5=Tagalog\r\n\r\n6=Taiwanese\r\n\r\nT=Thai\r\n\r\nV=Vietnamese",
+            "name": "Provider Language Code",
+            "title": "Provider Language Code",
+            "type": "string"
+          },
+          {
+            "description": "Description of Provider Language Code.",
+            "name": "Provider Language Code Desc",
+            "title": "Provider Language Code Desc",
+            "type": "string"
+          },
+          {
+            "description": "County where billing provider office is located.",
+            "name": "Provider County Code",
+            "title": "Provider County Code",
+            "type": "string"
+          },
+          {
+            "description": "Description of County Code.",
+            "name": "Provider County Desc",
+            "title": "Provider County Desc",
+            "type": "string"
+          },
+          {
+            "description": "Provider Legal Name for Billing Provider NPI.",
+            "name": "Billing Provider Address Attention Line",
+            "title": "Billing Provider Address Attention Line",
+            "type": "string"
+          },
+          {
+            "description": "Street address line 1 of billing provider.",
+            "name": "Billing Provider Address 1",
+            "title": "Billing Provider Address 1",
+            "type": "string"
+          },
+          {
+            "description": "Street address line 2 of billing provider.",
+            "name": "Billing Provider Address 2",
+            "title": "Billing Provider Address 2",
+            "type": "string"
+          },
+          {
+            "description": "Billing Provider City\tBilling Provider City\tText\tCity where billing provider office is located.",
+            "name": "Billing Provider City",
+            "title": "Billing Provider City",
+            "type": "string"
+          },
+          {
+            "description": "State where billing provider office is located.",
+            "name": "Billing Provider State",
+            "title": "Billing Provider State",
+            "type": "string"
+          },
+          {
+            "description": "Zip code where billing provider office is located.",
+            "name": "Billing Provider Zip",
+            "title": "Billing Provider Zip",
+            "type": "string"
+          },
+          {
+            "description": "Latitude of the billing provider office address.",
+            "name": "Latitude",
+            "title": "Latitude",
+            "type": "string"
+          },
+          {
+            "description": "Longitude of the billing provider office address.",
+            "name": "Longitude",
+            "title": "Longitude",
+            "type": "string"
+          },
+          {
+            "description": "Medical Service Study Area Identification is based on the 2010 U.S. Census.  MSSA is outlined by the Office of Statewide Health Planning & Development (OSHPD) and composed of one or more complete census tracts in each area.",
+            "name": "MSSA ID",
+            "title": "MSSA ID",
+            "type": "string"
+          },
+          {
+            "description": "Census Tract, a small, relatively permanent statistical subdivision of a county or equivalent entity that is updated by the Census Bureau.",
+            "name": "Tract ID",
+            "title": "Tract ID",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/55bbe8bf-ad50-42cb-81ec-13ad4647075e/resource/f110622d-01f6-4028-8103-e27bd256a0de/download/ffsproviderprofileodp_oct2025.csv",
+          "title": "Profile of Enrolled Medi-Cal Dental Fee-for-Service (FFS) Providers and Safety Net Clinics (SNCs)"
+        }
+      ],
+      "title": "Profile of Enrolled Medi-Cal Dental Fee-for-Service (FFS) Providers and Safety Net Clinics (SNCs)"
+    },
+    {
+      "description": "This dataset provides monthly counts of Fee-For-Service (FFS) rendering providers and service offices enrolled in the Medi-Cal Dental program, and Safety Net Clinics (SNCs) who provide dental services.  The data is based on a point in time and is expected to be updated biannually.  The dataset does not include Dental Managed Care providers.",
+      "format": "CSV",
+      "hash": "714b47ed72a1f80d8e3408f91dd2a2a7",
+      "name": "medi-cal-dental-fee-for-service-ffs-monthly-provider-enrollment-count",
+      "path": "medi-cal-dental-fee-for-service-ffs-monthly-provider-enrollment-count.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Month/Year",
+            "type": "string"
+          },
+          {
+            "name": "Rendering Providers",
+            "type": "string"
+          },
+          {
+            "name": "Active Service Offices",
+            "type": "string"
+          },
+          {
+            "name": "Safety Net Clinics",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/55bbe8bf-ad50-42cb-81ec-13ad4647075e/resource/957d89dc-bbdc-4dcf-9604-346dd2cafd86/download/ffs_dental_provider_count_dec2025.csv",
+          "title": "Medi-Cal Dental Fee-For-Service (FFS) Monthly Provider Enrollment Count"
+        }
+      ],
+      "title": "Medi-Cal Dental Fee-For-Service (FFS) Monthly Provider Enrollment Count"
+    }
+  ],
+  "secondary_sources": "",
+  "sources": [
+    {
+      "name": "Medi-Cal Dental Services Division"
+    }
+  ],
+  "temporal_coverage": "As of October 2025 (dataset updated bi-annually)",
+  "title": "Profile of Enrolled Medi-Cal Dental Fee-for-Service (FFS) Providers and Safety Net Clinics (SNCs)"
+}

@@ -1,0 +1,66 @@
+﻿Provider Specialty Code (r),Provider Specialty Desc (r)
+01,General Practice
+02,General Surgery
+03,Allergy
+04,"Otology, Laryngology, Rhinology"
+05,Anesthesiology
+06,Cardiovascular Disease (M.D. only)
+07,Dermatology
+08,Family Practice
+09,Gynecology (D.O. only)
+10,Gastroenterology (M.D. only)
+11,Aviation (M.D. only)
+12,Manipulative Therapy (D.O. only)
+13,Neurology (M.D. only)
+14,Neurological Surgery
+15,Obstetrics (D.O. only)
+16,Obstetrics-Gynecology (M.D. Only) Neonatal
+17,"Ophthalmology, Otolaryngology, Rhinology (D.O.only)"
+18,Ophthalmology
+19,Dentists (DMD)
+2 ,Nurse Practitioner (non-physician medical practitioner)
+20,Orthopedic Surgery
+21,Pathologic Anatomy: Clinical Pathology (D.O. only)
+22,Pathology (M.D. only)
+23,Peripheral Vascular Disease or Surgery (D.O. only)
+24,Plastic Surgery
+25,Physical Medicine and Rehabilitation
+26,Psychiatry (child)
+27,Psychiatry Neurology (D.O. only)
+28,Proctology (colon and rectal)
+29,Pulmonary Diseases (M.D. only)
+3 ,Physician Assistant (non-physician medical practitioner)
+30,Radiology
+31,"Roentgenology, Radiology (M.D. only)"
+32,Radiation Therapy (D.O. only)
+33,Thoracic Surgery
+34,Urology and Urological Surgery
+35,Pediatric Cardiology (M.D. only)
+36,Psychiatry
+38,Geriatrics
+39,Preventive (M.D. only)
+4 ,Nurse Midwife (non-physician medical practitioner)
+40,Pediatrics
+41,Internal Medicine
+42,Nuclear Medicine
+43,Pediatric Allergy
+44,Public Health
+45,Nephrology (Renal-Kidney)
+46,Hand Surgery
+47,Miscellaneous
+66,Emergency Medicine (Urgent Care)
+67,Endocrinology
+68,Hematology
+70,Clinic (mixed specialty)
+77,Infectious Disease
+78,Neoplastic Diseases/Oncology
+79,Neurology-Child
+83,Rheumatology
+84,Surgery-Head and Neck
+85,Surgery-Pediatric
+89,Surgery-Traumatic
+90,Pathology-Forensic
+91,Pharmacology-Clinical
+93,"Marriage, family and child counselor"
+94,Licensed clinical social worker
+95,Registered nurse

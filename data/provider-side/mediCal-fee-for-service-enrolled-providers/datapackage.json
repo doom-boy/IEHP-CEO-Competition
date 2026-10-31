@@ -1,0 +1,389 @@
+{
+  "accrual_periodicity": "weekly",
+  "additional_limitations": "Use of this data is subject to the CHHS Terms of Use and any copyright and proprietary notices incorporated in or accompanying the individual files.\r\n\r\nThe information in the dataset was retrieved from the PMF, which is compiled based on the enrollment applications submitted by providers.  Therefore, the dataset contains a small amount of records with incomplete or inaccurate information, such as an inappropriate provider type or a missing specialty code.  ",
+  "citation": "",
+  "contact_email": "opendata@dhcs.ca.gov",
+  "data_collection_tool": "Data is retrieved from the PMF in the Management Information System/Decision Support System (MIS/DSS) data warehouse​.  The PMF is compiled based on the enrollment applications submitted by providers.",
+  "data_license": "Terms of Use",
+  "de_identification_method": "http://www.dhcs.ca.gov/dataandstats/Pages/PublicReportingGuidelines.aspx",
+  "description": "The dataset provides basic information of the FFS providers enrolled in the Medi-Cal program as of October 26, 2026.  The data was retrieved from the Provider Master File (PMF), which has been used in the claims payment process and maintained by the Provider Enrollment Division (PED).  The Variables in the dataset include provider number, name, type, specialty, geographic information, etc.  This dataset does not include the Managed Care providers.\r\n\r\n__Note: Data may be subject to a 1-2 day lag for quality assurance.__",
+  "extras": {
+    "twitter_popup": []
+  },
+  "geo_coverage": "In-and out-of-state",
+  "geographic_granularity": "location point",
+  "keywords": [
+    "FFS",
+    "Fee-for-Service Provider",
+    "Medi-Cal",
+    "PED",
+    "PMF",
+    "Provider Enrollment",
+    "Provider Master File"
+  ],
+  "limitations": "Limitations",
+  "name": "profile-of-enrolled-medi-cal-fee-for-service-ffs-providers",
+  "program_web_page": "https://www.dhcs.ca.gov/provgovpart/Pages/PED.aspx",
+  "related_resources": "​Information of the National Plan & Provider Enumeration System (NPPES):  https://nppes.cms.hhs.gov/NPPES/Welcome.do",
+  "resources": [
+    {
+      "description": "The dataset provides enrollment and geographic data for Fee-for-Service (FFS) providers enrolled in the Medi-Cal. The data is based on a point in time, and it is to be updated monthly. The enrollment provider data is as of October 26, 2026. This dataset does not include Dental Fee-for-Service providers. \r\n\r\n__Note: Data may be subject to a 1 to 2 day lag for quality assurance.__",
+      "format": "CSV",
+      "hash": "14873955aa5f20f57c6cb365f2f0711e",
+      "name": "enrolled-medi-cal-fee-for-service-ffs-providers",
+      "path": "https://data.chhs.ca.gov/dataset/514c5381-f3dc-4c4a-a9de-a4df9405f046/resource/d652b210-ec3d-4a92-b7e0-e55c3dcbc7dc/download/medi-cal-ffs-provider-listing_10_26_26.csv",
+      "schema": {
+        "fields": [
+          {
+            "description": "Unique identifier of the provider.  This field has both National Provider Identifier (NPI) and Medi-Cal legacy number, as reported in the Provider Master File (PMF).",
+            "name": "Provider_Number",
+            "title": "Provider Number",
+            "type": "string"
+          },
+          {
+            "description": "National Provider Identifier is a unique identification number issued to health care providers by the Centers for Medicare and Medicaid Services (CMS).",
+            "name": "NPI",
+            "title": "NPI",
+            "type": "string"
+          },
+          {
+            "description": "Indicates if the NPI is:\r\n\r\n* Type 1 = Individual\r\n* Type 2 = Organizational",
+            "name": "NPI_Type",
+            "title": "NPI_Type",
+            "type": "string"
+          },
+          {
+            "description": "Unique identifier of an owner.  The identifier of the owner remains constant with new owners having the next higher sequential number.",
+            "name": "Owner_Number",
+            "title": "Owner Number",
+            "type": "string"
+          },
+          {
+            "description": "Service location number of the provider.",
+            "name": "Service_Location_Number",
+            "title": "Service Location Number",
+            "type": "string"
+          },
+          {
+            "description": "Full legal name of the provider, as reported in the PMF.",
+            "name": "Legal_Name",
+            "title": "Legal Name",
+            "type": "string"
+          },
+          {
+            "description": "Indicates effective date of provider enrollment.",
+            "name": "Enroll_Status_Eff_DT",
+            "title": "Enroll Status Effective Date",
+            "type": "string"
+          },
+          {
+            "description": "PAVE reported provider taxonomy.",
+            "name": "Provider_Taxonomy",
+            "title": "Provider Taxonomy Code",
+            "type": "string"
+          },
+          {
+            "description": "Specification of the mode of Ground Transportation the provider is approved to provide Non-Emergency Medical Transportation (NEMT) and/or Non-Medical Transportation (NMT).\r\n\r\n* NEMT Provider\r\n* NMT Provider\r\n* Both NEMT & NMT Provider\r\n* NA (Non-Applicable) ",
+            "name": "NEMT_NMT_Provider_Type",
+            "title": "NEMT/NMT Provider Type",
+            "type": "string"
+          },
+          {
+            "description": "Mapped Network Certification provider type based on PAVE reported taxonomy.",
+            "name": "ANC_Provider_Type",
+            "title": "ANC Provider Type Description",
+            "type": "string"
+          },
+          {
+            "description": "Classification of the provider rendering health and medical services, as reported in the PMF.  See Appendix A for a list of provider type codes in the PMF.",
+            "name": "FI_Provider_Type_CD",
+            "title": "FI Provider Type Code",
+            "type": "string"
+          },
+          {
+            "description": "Description of Provider Type.",
+            "name": "FI_Provider_Type",
+            "title": "FI Provider Type Description",
+            "type": "string"
+          },
+          {
+            "description": "Provider's state issued license number.  Only CA state license number for the following types of providers is reported in the file; for out of state or other types of providers, a ‘ - ‘ is displayed: 026: Physicians, 086: Medical Directors, 087: Licensed Professionals, A blank cell indicates that no license data is available.",
+            "name": "Provider_License",
+            "title": "Provider License",
+            "type": "string"
+          },
+          {
+            "description": "Provider’s principal reported area of specialization, as reported in the PMF.  The following provider types are required to report provider specialty:\r\n\r\n* Physician Groups\r\n* Physician\r\n* Nurse Anesthetists• Certified Nurse Midwife\r\n* Certified Nurse Practitioner\r\n* EPSDT Supplemental Services Provider\r\n* Podiatrists\r\n* Physical Therapists\r\n* Psychologists\r\n\r\nSee Appendix B for a list of provider specialty codes in the PMF.",
+            "name": "FI_Provider_Specialty_CD",
+            "title": "FI Provider Specialty Code",
+            "type": "string"
+          },
+          {
+            "description": "Description of Provider Specialty.",
+            "name": "FI_Provider_Specialty",
+            "title": "FI Provider Specialty Description",
+            "type": "string"
+          },
+          {
+            "description": "Indication of the provider who is located in or out of California.\r\n\r\nSpace = Unknown\r\n\r\n0 = In state provider\r\n\r\n1 = Border provider\r\n\r\n2 = Out of state provider\r\n\r\n3 = Out of country provider\r\n\r\n4 = Out of state provider - EDS",
+            "name": "Out_of_State_Indicator",
+            "title": "Out of State Indicator",
+            "type": "string"
+          },
+          {
+            "description": "Description of In- or Out-of-State Indicator.",
+            "name": "In_Out_State",
+            "title": "In Out State",
+            "type": "string"
+          },
+          {
+            "description": "Attention line of provider servicing address, as reported in the PMF.",
+            "name": "Address_Attention",
+            "title": "Address Attention",
+            "type": "string"
+          },
+          {
+            "description": "Street address line 1 of provider servicing address, as reported in the PMF.",
+            "name": "Address",
+            "title": "Address",
+            "type": "string"
+          },
+          {
+            "description": "Street address line 2 of provider servicing address, as reported in the PMF.",
+            "name": "Address2",
+            "title": "Address2",
+            "type": "string"
+          },
+          {
+            "description": "City where the service is provided, as reported in the PMF.",
+            "name": "City",
+            "title": "City",
+            "type": "string"
+          },
+          {
+            "description": "State where the service is provided, as reported in the PMF.",
+            "name": "State",
+            "title": "State",
+            "type": "string"
+          },
+          {
+            "description": "Zip code where the service is provided, as reported in the PMF.",
+            "name": "ZIP",
+            "title": "ZIP",
+            "type": "string"
+          },
+          {
+            "description": "Zip code + 4 extension where the service is provided, as reported in the PMF.",
+            "name": "ZIP_4",
+            "title": "ZIP+ 4",
+            "type": "string"
+          },
+          {
+            "description": "DHCS County Code where the service is provided.",
+            "name": "DHCS_County_CD",
+            "title": "DHCS County Code",
+            "type": "string"
+          },
+          {
+            "description": "FIPS County Code where the service is provided.",
+            "name": "FIPS_County_CD",
+            "title": "FIPS County Code",
+            "type": "string"
+          },
+          {
+            "name": "County",
+            "type": "string"
+          },
+          {
+            "description": "Phone number of the provider's service location.\r\n",
+            "name": "Phone_Number",
+            "title": "Provider Office Phone Number",
+            "type": "string"
+          },
+          {
+            "description": "Is the provider currently accepting new Medicaid patients?\r\n\r\n* N – Not accepting new patients\r\n* F – Accepting Fee-for-Service patients only\r\n* M – Accepting Managed Care patients only\r\n* B – Accepting both Fee-for-Service and Managed Care patients",
+            "name": "Medicaid_Patients",
+            "title": "Accepts Medicaid Patients",
+            "type": "string"
+          },
+          {
+            "description": "Is the provider currently accepting new Children's Health Insurance Program (CHIP) patients\r\n\r\n* Y = Provider is currently accepting new CHIP patients\r\n* N= Provider is not currently accepting new CHIP patients",
+            "name": "CHIP_Patients",
+            "title": "Accepts CHIP Patients",
+            "type": "string"
+          },
+          {
+            "description": "Indicates if the provider offers covered services via telehealth.\r\n\r\n* Y= The provider offers covered services via telehealth\r\n* N = The provider does not offer covered services via telehealth",
+            "name": "Telehealth_Services",
+            "title": "Has Telehealth",
+            "type": "string"
+          },
+          {
+            "description": "Website associated with the provider practice location.",
+            "name": "Provider_Website",
+            "title": "Provider Website",
+            "type": "string"
+          },
+          {
+            "description": "Threshold languages that the Provider or Skilled Medical Interpreter at the location speaks.",
+            "name": "Threshold_Languages",
+            "title": "Threshold Languages",
+            "type": "string"
+          },
+          {
+            "description": "Other languages that the Provider or Skilled Medical Interpreter at the location speaks.",
+            "name": "Other_Languages",
+            "title": "Other Languages",
+            "type": "string"
+          },
+          {
+            "description": "Exam Room (E) - The entrance to the exam room is accessible with a clear path. The doors open wide enough to accommodate a wheelchair or scooter and are easy to open. The exam room has enough room for a wheelchair or scooter to turn around. \r\n\r\n* Y= Provider office has exam room accommodation\r\n* N= Provider office does not have exam room accommodation",
+            "name": "Acc_Exam_Room",
+            "title": "Accommodation: Exam Room",
+            "type": "string"
+          },
+          {
+            "description": "Exterior Building (EB) - Curb ramps and other ramps to the building are wide enough for a wheelchair or scooter. Handrails are provided on both sides of the ramp. There is an accessible entrance to the building. Doors open wide enough to let a wheelchair or scooter enter and have handles that are easy to use. \r\n\r\n* Y= Provider office has exterior building accommodation\r\n* N= Provider office does not have exterior building accommodation",
+            "name": "Acc_Exterior_Building",
+            "title": "Accommodation: Exterior Building",
+            "type": "string"
+          },
+          {
+            "description": "Interior Building (IB) - Doors open wide enough to let a wheelchair or scooter enter and have handles that are easy to use. Interior ramps are wide enough and have handrails. Stairs, if available, have handrails. If there is an elevator, it is available for public use at all times when the building is open. The elevator has enough room for a wheelchair or scooter to turn around. If there is a platform lift, it can be used without help. \r\n\r\n* Y= Provider office has interior building accommodation\r\n* N= Provider office does not have interior building accommodation",
+            "name": "Acc_Interior_Building",
+            "title": "Accommodation: Interior Building",
+            "type": "string"
+          },
+          {
+            "description": "Parking (P) - Parking spaces, including spaces designated for vans, are accessible. Pathways have curb ramps between the parking lots, offices, and at drop-off locations. \r\n\r\n* Y= Provider office has parking accommodation\r\n* N= Provider office does not have parking accommodation",
+            "name": "Acc_Parking",
+            "title": "Accommodation: Parking",
+            "type": "string"
+          },
+          {
+            "description": "Restroom (R) - The restroom is accessible, and the doors are wide enough to accommodate a wheelchair or scooter and are easy to open. The restroom has enough room for a wheelchair or scooter to turn around and close the door. There are grab bars that allow easy transfer from wheelchair to toilet. The sink is easy to get to and the faucets, soap, and toilet paper are easy to reach and use. \r\n\r\n* Y= Provider office has restroom accommodation\r\n* N= Provider office does not have restroom accommodation",
+            "name": "Acc_Restroom",
+            "title": "Accommodation: Restroom",
+            "type": "string"
+          },
+          {
+            "description": "Medical Equipment (T) - The exam table moves up and down and the scale is accessible with handrails to assist people with wheelchairs and scooters. The weight scale can accommodate a wheelchair. Patients can get on or off medical equipment with or without help. \r\n\r\n* Y= Provider office has medical equipment accommodation\r\n* N= Provider office does not have medical equipment accommodation",
+            "name": "Acc_Medical_Equipment",
+            "title": "Accommodation: Medical Equipment",
+            "type": "string"
+          },
+          {
+            "description": "Patient Areas (PA) - Patients can get to and use all common areas and equipment with or without help. \r\n\r\n* Y= Provider office has patient areas accommodation\r\n* N= Provider office does not have patient areas accommodation",
+            "name": "Acc_Patient_Areas",
+            "title": "Accommodation: Patient Areas",
+            "type": "string"
+          },
+          {
+            "description": "Patient Diagnostic and Treatment Use (PD) - Patients are able to access and use testing and treatment areas, and equipment. \r\n\r\n* Y= Provider office has patient diagnostic and treatment use accommodation\r\n* N= Provider office does not have patient diagnostic and treatment use accommodation",
+            "name": "Acc_Patient_Diagnostic",
+            "title": "Accommodation: Patient Diagnostic and Treatment Use",
+            "type": "string"
+          },
+          {
+            "description": "__For DHCS internal use only. Lists the file each provider is found in.__\r\n\r\n* 1= Main File\r\n* 2= NMP File\r\n* 3= ORP File",
+            "name": "Provider_Source",
+            "title": "Provider Source",
+            "type": "string"
+          },
+          {
+            "description": "Indicates if the provider is a **FFS billing provider** or a **FFS non-billing provider**. A FFS billing provider is defined as an actively enrolled Fee-For-Service (FFS) provider who bills for services they provide using their own provider (NPI) number. A FFS non-billing provider is defined as an actively enrolled individual Fee-For-Service (FFS) provider who directly renders healthcare services to Medi-Cal members and does not submit claims directly to Medi-Cal for services provided.",
+            "name": "Billing_Provider",
+            "title": "Billing Provider",
+            "type": "string"
+          },
+          {
+            "description": "Latitude coordinates.",
+            "name": "Latitude",
+            "title": "Latitude Coordinates",
+            "type": "number"
+          },
+          {
+            "description": "Longitude coordinates.",
+            "name": "Longitude",
+            "title": "Longitude Coordinates",
+            "type": "number"
+          },
+          {
+            "description": "County based off Latitude and Longitude Coordinates.",
+            "name": "CountyName",
+            "title": "CountyName",
+            "type": "string"
+          }
+        ]
+      },
+      "title": "Enrolled Medi-Cal Fee-for-Service (FFS) Providers"
+    },
+    {
+      "description": "Table of DHCS (Medi-Cal) Provider Type Codes and Descriptions used by the Medi-Cal Fiscal Intermediary.",
+      "format": "CSV",
+      "hash": "2bf2054fae49179ce41c6465d742c71e",
+      "name": "fi-provider-type-code-reference",
+      "path": "fi-provider-type-code-reference.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Provider Type Code (r)",
+            "type": "string"
+          },
+          {
+            "name": "Provider Type Desc (r)",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/514c5381-f3dc-4c4a-a9de-a4df9405f046/resource/50a74d55-c40c-4213-86f8-f7abbaa818dc/download/provider-type-code-reference_2.2026.csv",
+          "title": "FI Provider Type Code Reference"
+        }
+      ],
+      "title": "FI Provider Type Code Reference"
+    },
+    {
+      "description": "Table of DHCS (Medi-Cal) Provider Specialty Codes and Descriptions used by the Medi-Cal Fiscal Intermediary.",
+      "format": "CSV",
+      "hash": "5fecdb5259df9c7e6ac78642079fc0dc",
+      "name": "fi-provider-specialty-code-reference",
+      "path": "fi-provider-specialty-code-reference.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Provider Specialty Code (r)",
+            "type": "string"
+          },
+          {
+            "name": "Provider Specialty Desc (r)",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/514c5381-f3dc-4c4a-a9de-a4df9405f046/resource/4135eb5a-5dea-4e5e-851b-33b223ee2ce6/download/provider-specialty-code-reference_2.2026.csv",
+          "title": "FI Provider Specialty Code Reference"
+        }
+      ],
+      "title": "FI Provider Specialty Code Reference"
+    },
+    {
+      "description": "This application allows for searching by Name or address within a number mile radius. ",
+      "format": "HTML",
+      "name": "medi-cal-fee-for-service-provider-finder-application",
+      "path": "https://geohub-cadhcs.hub.arcgis.com/apps/f9715ef5673c4ca99c95046d5bbf138e/explore",
+      "title": "Medi-Cal Fee for Service Provider Finder Application"
+    }
+  ],
+  "secondary_sources": "",
+  "sources": [
+    {
+      "name": "Provider Enrollment Division"
+    }
+  ],
+  "temporal_coverage": "As of October 26, 2026",
+  "title": "​Profile of Enrolled Medi-Cal Fee-for-Service (FFS) Providers"
+}
