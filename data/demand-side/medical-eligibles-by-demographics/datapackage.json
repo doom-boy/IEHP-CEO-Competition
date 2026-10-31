@@ -1,0 +1,614 @@
+{
+  "accrual_periodicity": "monthly",
+  "additional_limitations": "Eligibility for Medi-Cal may occur retroactively and it may take time for eligibility determinations to be processed and reported to DHCS. As such, eligibility data is approximately 96% complete for the current month, 98% complete within one month, and over 99% complete within 2 months. Data is considered preliminary and subject to change for one year.",
+  "citation": "State of California, Department of Health Care Services, Medi-Cal Certified Eligibles, by County and Dual Status",
+  "contact_email": "opendata@dhcs.ca.gov",
+  "data_collection_tool": "MIS/DSS Data Warehouse",
+  "data_license": "Terms of Use",
+  "de_identification_method": "Public Aggregate Reporting for DHCS Business Reports at http://www.dhcs.ca.gov/dataandstats/Pages/PublicReportingGuidelines.aspx ",
+  "description": "These files contain monthly data by county for Medi-Cal certified eligibles, by various demographics traits. The data is split out and not distributed as a single dataset for the purposes of de-identification.\r\n\r\nThe dataset by Aid Category provides monthly reporting from January 2022 through the most recent month available. Recent updates now reflect eligibility reporting pertaining to the full-scope expansion of the Adult Medi-Cal population, regardless of their immigration status.\r\n\r\nAn archived version of the dataset by Aid Category covering January 2010 through August 2024 has been reuploaded for historical reference.\r\n\r\n__Note: Caution should be exercised when referencing immigration status data for calendar year 2022. The reliability of the 2022 data has not been fully verified as the data element was integrated into the DHCS MIS/DSS beginning in January 2023.__",
+  "extras": {
+    "twitter_popup": []
+  },
+  "geo_coverage": "Statewide",
+  "geographic_granularity": "county",
+  "keywords": [
+    "age groups",
+    "certified eligible",
+    "county",
+    "delivery system",
+    "dhcs",
+    "dual status",
+    "enrollment",
+    "ethnicity",
+    "gender",
+    "health care",
+    "health plan",
+    "language",
+    "medi-cal",
+    "medicare status",
+    "month of enrollment",
+    "non-dual status",
+    "primary language",
+    "race",
+    "sex"
+  ],
+  "limitations": "Limitations",
+  "name": "medi-cal-certified-eligibles-with-demographics-by-month",
+  "program_web_page": "www.dhcs.ca.gov",
+  "related_resources": "",
+  "resources": [
+    {
+      "description": "This is the file for Certified Eligibles by Age Group and Sex",
+      "format": "CSV",
+      "hash": "0f215991dc0a8b40c06c169ef44406e3",
+      "name": "by-age-group-and-sex-certified-eligibles",
+      "path": "by-age-group-and-sex-certified-eligibles.csv",
+      "schema": {
+        "fields": [
+          {
+            "description": "Denotes the year (four-digit) and month (two-digit) during which the Medi-Cal beneficiary was eligible for Medi-Cal.\r\n\r\n* YYYY-MM (e.g., 2016-01 is January 2016)",
+            "name": "Month of Eligibility",
+            "title": "Month of Eligibility",
+            "type": "string"
+          },
+          {
+            "description": "Medi-Cal beneficiary's county of residence.\r\n\r\n* 58 counties",
+            "name": "County",
+            "title": "County",
+            "type": "string"
+          },
+          {
+            "description": "Medi-Cal beneficiary’s age arranged into one of four age groups\r\n\r\n* Children 0-18\r\n* Adults 19-44\r\n* Adults 45-64\r\n* Seniors 65 and older.",
+            "name": "Age Group",
+            "title": "Age Group",
+            "type": "string"
+          },
+          {
+            "description": "Identifies the Medi-Cal beneficiary's gender.\r\n\r\n* M (Male)\r\n* F (Female)",
+            "name": "Gender",
+            "title": "Gender",
+            "type": "string"
+          },
+          {
+            "description": "The total number of individuals certified eligible for the month of eligibility. Certified eligibles are those beneficiaries deemed qualified for Medi-Cal by a valid eligibility determination, and who have enrolled into the program. This classification excludes beneficiaries who have not met a monthly share-of-cost obligation.",
+            "name": "Total Eligibles",
+            "title": "Total Eligibles",
+            "type": "string"
+          },
+          {
+            "description": "Code for type annotation.\r\n\r\n* 1= suppressed due to small number\r\n* 2= suppressed due to complimentary cell small number\r\n* 3= No data available",
+            "name": "Annotation Code",
+            "title": "Annotation Code",
+            "type": "string"
+          },
+          {
+            "description": "Description of Annotation for COUNT columns.",
+            "name": "Annotation Description",
+            "title": "Annotation Description",
+            "type": "string"
+          },
+          {
+            "description": "Certified eligible counts with a status of \"P\" are preliminary and subject to change. A specific month's eligibility count is considered complete for statistical reporting purposes 12 months after the month's end, and indicates a status of \"F\" for final.\r\n\r\n* P (Preliminary)\r\n* F (Final)",
+            "name": "Status",
+            "title": "Status",
+            "type": "string"
+          },
+          {
+            "name": "Date of Data",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/8c897320-ba87-4574-bc37-bae974191c35/resource/cc08b60f-393f-4e37-9b3e-976d7a9f2a72/download/t1_eligibility_by_age_group_sex_201001_oct2026.csv",
+          "title": "By Age Group and Sex, Certified Eligibles"
+        }
+      ],
+      "title": "By Age Group and Sex, Certified Eligibles"
+    },
+    {
+      "description": "This is the file for Certified Eligibles by Delivery System and Plan",
+      "format": "CSV",
+      "hash": "8378e602aad0d1ab0e1bcefd243d11e9",
+      "name": "by-delivery-system-and-plan-certified-eligibles",
+      "path": "by-delivery-system-and-plan-certified-eligibles.csv",
+      "schema": {
+        "fields": [
+          {
+            "description": "Denotes the year (four-digit) and month (two-digit) during which the Medi-Cal beneficiary was eligible for Medi-Cal.\r\n\r\n* YYYY-MM (e.g., 2016-01 is January 2016)",
+            "name": "Month of Eligibility",
+            "title": "Month of Eligibility",
+            "type": "string"
+          },
+          {
+            "description": "Medi-Cal beneficiary's county of residence.\r\n\r\n* 58 counties",
+            "name": "County",
+            "title": "County",
+            "type": "string"
+          },
+          {
+            "name": "Health Delivery System",
+            "type": "string"
+          },
+          {
+            "name": "Health Plan",
+            "type": "string"
+          },
+          {
+            "description": "The total number of individuals certified eligible for the month of eligibility. Certified eligibles are those beneficiaries deemed qualified for Medi-Cal by a valid eligibility determination, and who have enrolled into the program. This classification excludes beneficiaries who have not met a monthly share-of-cost obligation.",
+            "name": "Total Eligibles",
+            "title": "Total Eligibles",
+            "type": "string"
+          },
+          {
+            "description": "Code for type annotation.\r\n\r\n* 1= suppressed due to small number\r\n* 2= suppressed due to complimentary cell small number\r\n* 3= No data available",
+            "name": "Annotation Code",
+            "title": "Annotation Code",
+            "type": "string"
+          },
+          {
+            "description": "Description of Annotation for COUNT columns.",
+            "name": "Annotation Description",
+            "title": "Annotation Description",
+            "type": "string"
+          },
+          {
+            "description": "Certified eligible counts with a status of \"P\" are preliminary and subject to change. A specific month's eligibility count is considered complete for statistical reporting purposes 12 months after the month's end, and indicates a status \"F\" for final.\r\n\r\n* P (Preliminary)\r\n* F  (Final)",
+            "name": "Status",
+            "title": "Status",
+            "type": "string"
+          },
+          {
+            "name": "Date of Data",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/8c897320-ba87-4574-bc37-bae974191c35/resource/2c28bf78-a385-4d0c-88d5-7d1eef09a5ab/download/t2_eligibility_by_delivery_system_plan_201001_oct2026.csv",
+          "title": "By Delivery System and Plan, Certified Eligibles"
+        }
+      ],
+      "title": "By Delivery System and Plan, Certified Eligibles"
+    },
+    {
+      "description": "This is the file for Certified Eligibles by Medicare Dual Status and Age Group",
+      "format": "CSV",
+      "hash": "40d9c13a810d38cd897fd6261a745e3c",
+      "name": "by-medicare-dual-status-and-age-group-certified-eligibles",
+      "path": "by-medicare-dual-status-and-age-group-certified-eligibles.csv",
+      "schema": {
+        "fields": [
+          {
+            "description": "Denotes the year (four-digit) and month (two-digit) during which the Medi-Cal beneficiary was eligible for Medi-Cal.\r\n\r\n* YYYY-MM (e.g., 2016-01 is January 2016)",
+            "name": "Month of Eligibility",
+            "title": "Month of Eligibility",
+            "type": "string"
+          },
+          {
+            "description": "Medi-Cal beneficiary's county of residence.\r\n\r\n* 58 counties",
+            "name": "County",
+            "title": "County",
+            "type": "string"
+          },
+          {
+            "description": "Identifies whether the Medi-Cal beneficiary was also enrolled in Medicare during their month of enrollment, arranged into one of three groups identifying beneficiaries who receive Medicare Parts A, B, or D.",
+            "name": "Dual Status",
+            "title": "Dual Status",
+            "type": "string"
+          },
+          {
+            "description": "Medi-Cal beneficiary’s age arranged into one of four age groups:\r\n\r\n* Children 0-18\r\n* Adults 19-44\r\n* Adults 45-64\r\n* Seniors 65 and older.",
+            "name": "Age Group",
+            "title": "Age Group",
+            "type": "string"
+          },
+          {
+            "description": "The total number of individuals certified eligible for the month of eligibility. Certified eligibles are those beneficiaries deemed qualified for Medi-Cal by a valid eligibility determination, and who have enrolled into the program. This classification excludes beneficiaries who have not met a monthly share-of-cost obligation.",
+            "name": "Total Eligibles",
+            "title": "Total Eligibles",
+            "type": "string"
+          },
+          {
+            "description": "Code for type annotation.\r\n\r\n* 1= suppressed due to small number\r\n* 2= suppressed due to complimentary cell small number\r\n* 3= No data available",
+            "name": "Annotation Code",
+            "title": "Annotation Code",
+            "type": "string"
+          },
+          {
+            "description": "Description of Annotation for COUNT columns.",
+            "name": "Annotation Description",
+            "title": "Annotation Description",
+            "type": "string"
+          },
+          {
+            "description": "Certified eligible counts with a status of \"P\" are preliminary and subject to change. A specific month's eligibility count is considered complete for statistical reporting purposes 12 months after the month's end, and indicates a status of \"F\" for final.\r\n\r\n* P (Preliminary)\r\n* F (Final)",
+            "name": "Status",
+            "title": "Status",
+            "type": "string"
+          },
+          {
+            "name": "Date of Data",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/8c897320-ba87-4574-bc37-bae974191c35/resource/35261707-8fae-4fe2-97a7-c4e9fc75681a/download/t3_eligibility_by_medicare_dual_status_age_group_201001_oct2026.csv",
+          "title": "By Medicare Dual Status and Age Group, Certified Eligibles"
+        }
+      ],
+      "title": "By Medicare Dual Status and Age Group, Certified Eligibles"
+    },
+    {
+      "description": "This is the file for Certified Eligibles by Race/Ethnicity and Age Group",
+      "format": "CSV",
+      "hash": "6a985a6baba1b962dc2a268a17b96ca9",
+      "name": "by-race-ethnicity-and-age-group-certified-eligibles",
+      "path": "by-race-ethnicity-and-age-group-certified-eligibles.csv",
+      "schema": {
+        "fields": [
+          {
+            "description": "Denotes the year (four-digit) and month (two-digit) during which the Medi-Cal beneficiary was eligible for Medi-Cal.\r\n\r\n* YYYY-MM (e.g., 2016-01 is January 2016)",
+            "name": "Month of Eligibility",
+            "title": "Month of Eligibility",
+            "type": "string"
+          },
+          {
+            "description": "Medi-Cal beneficiary’s county of residence.\r\n\r\n* 58 counties\r\n",
+            "name": "County",
+            "title": "County",
+            "type": "string"
+          },
+          {
+            "description": "Medi-Cal beneficiary’s age arranged into one of four age groups:\r\n\r\n* Children 0-18\r\n* Adults 19-44\r\n* Adults 45-64\r\n* Seniors 65 and older.",
+            "name": "Age Group",
+            "type": "string"
+          },
+          {
+            "description": "Identifies the Medi-Cal beneficiary’s race/ethnicity.\r\n\r\n* AI/AN (American Indian/Alaskan Native)\r\n* ASIAN\r\n* BLACK\r\n* HISPANIC\r\n* NOT REPORTED (Other/Not Reported)\r\n* WHITE",
+            "name": "Ethnicity",
+            "title": "Ethnicity",
+            "type": "string"
+          },
+          {
+            "description": "The total number of individuals certified eligible for the month of eligibility. Certified eligibles are those beneficiaries deemed qualified for Medi-Cal by a valid eligibility determination, and who have enrolled into the program. This classification excludes beneficiaries who have not met a monthly share-of-cost obligation.",
+            "name": "Total Eligibles",
+            "title": "Total Eligibles",
+            "type": "string"
+          },
+          {
+            "description": "Code for type annotation.\r\n\r\n* 1= suppressed due to small number\r\n* 2= suppressed due to complimentary cell small number\r\n* 3= No data available",
+            "name": "Annotation Code",
+            "title": "Annotation Code",
+            "type": "string"
+          },
+          {
+            "description": "Description of Annotation for COUNT columns.",
+            "name": "Annotation Description",
+            "title": "Annotation Description",
+            "type": "string"
+          },
+          {
+            "description": "Certified eligible counts with a status of \"P\" are preliminary and subject to change. A specific month's eligibility count is considered complete for statistical reporting purposes 12 months after the month's end and indicates a status of \"F\" for final.\r\n\r\n* P (Preliminary)\r\n* F (Final)",
+            "name": "Status",
+            "title": "Status",
+            "type": "string"
+          },
+          {
+            "name": "Date of Data",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/8c897320-ba87-4574-bc37-bae974191c35/resource/29a8f949-5c12-4e42-92db-39fa5ea12b8e/download/t4_eligibility_by_race_ethnicity_age_group_201001_oct2026.csv",
+          "title": "By Race/Ethnicity and Age Group, Certified Eligibles"
+        }
+      ],
+      "title": "By Race/Ethnicity and Age Group, Certified Eligibles"
+    },
+    {
+      "description": "This is the file for Certified Eligibles by Primary Language",
+      "format": "CSV",
+      "hash": "6e9a16836c817b25b315135869feb925",
+      "name": "by-primary-language-certified-eligibles",
+      "path": "by-primary-language-certified-eligibles.csv",
+      "schema": {
+        "fields": [
+          {
+            "description": "Denotes the year (four-digit) and month (two-digit) during which the Medi-Cal beneficiary was eligible for Medi-Cal.\r\n\r\n* YYYY-MM (e.g., 2016-01 is January 2016)",
+            "name": "Month of Eligibility",
+            "title": "Month of Eligibility",
+            "type": "string"
+          },
+          {
+            "description": "Medi-Cal beneficiary’s county of residence.\r\n\r\n* 58 counties",
+            "name": "County",
+            "title": "County",
+            "type": "string"
+          },
+          {
+            "description": "Identifies Medi-Cal beneficiary’s primary spoken language.\r\n\r\n* Arabic\r\n* Armenian\r\n* ASL\r\n* Cambodian\r\n* Cantonese\r\n* English\r\n* Farsi\r\n* French\r\n* Hebrew\r\n* Hmong\r\n* Ilocano\r\n* Italian\r\n* Japanese\r\n* Lao\r\n* Mandarin\r\n* Mien\r\n* Missing/Unknown\r\n* Other Chinese\r\n* Other Non-Eng\r\n* Other Sign\r\n* Polish\r\n* Portuguese\r\n* Russian\r\n* Samoan\r\n* Spanish\r\n* Tagalog\r\n* Thai\r\n* Turkish\r\n* Vietnamese",
+            "name": "Language",
+            "title": "Language (Primary Language)",
+            "type": "string"
+          },
+          {
+            "description": "The total number of individuals certified eligible for the month of eligibility. Certified eligibles are those beneficiaries deemed qualified for Medi-Cal by a valid eligibility determination, and who have enrolled into the program. This classification excludes beneficiaries who have not met a monthly share-of-cost obligation.",
+            "name": "Total Eligibles",
+            "title": "Total Eligibles",
+            "type": "string"
+          },
+          {
+            "description": "Code for type annotation.\r\n\r\n* 1= suppressed due to small number\r\n* 2= suppressed due to complimentary cell small number\r\n* 3= No data available",
+            "name": "Annotation Code",
+            "title": "Annotation Code",
+            "type": "string"
+          },
+          {
+            "description": "Description of Annotation for COUNT columns.",
+            "name": "Annotation Description",
+            "title": "Annotation Description",
+            "type": "string"
+          },
+          {
+            "description": "Certified eligible counts with a status of “P” are preliminary and subject to change. A specific month’s eligibility count is considered complete for statistical reporting purposes 12 months after the month’s end and indicates a status “F” for final.\r\n\r\n* P (Preliminary)\r\n* F (Final)",
+            "name": "Status",
+            "title": "Status",
+            "type": "string"
+          },
+          {
+            "name": "Date of Data",
+            "type": "string"
+          },
+          {
+            "name": "Difference",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/8c897320-ba87-4574-bc37-bae974191c35/resource/b698c8d7-aacd-43c6-a7dd-737ff5692284/download/t5_eligibility_by_language_201001_oct2026.csv",
+          "title": "By Primary Language, Certified Eligibles"
+        }
+      ],
+      "title": "By Primary Language, Certified Eligibles"
+    },
+    {
+      "description": "This is the file for Certified Eligibles by Medicare Dual Status",
+      "format": "CSV",
+      "hash": "03621ded04a80ab15e9f0ef2e148c844",
+      "name": "by-medicare-dual-status-certified-eligibles",
+      "path": "by-medicare-dual-status-certified-eligibles.csv",
+      "schema": {
+        "fields": [
+          {
+            "description": "Denotes the year (four-digit) and month (two-digit) during which the Medi-Cal beneficiary was eligible for Medi-Cal.\r\n\r\n* YYYY-MM (e.g., 2016-01 is January 2016)",
+            "name": "Month of Eligibility",
+            "title": "Month of Eligibility",
+            "type": "string"
+          },
+          {
+            "description": "Medi-Cal beneficiary’s county of residence.\r\n\r\n* 58 counties",
+            "name": "County",
+            "title": "County",
+            "type": "string"
+          },
+          {
+            "description": "Identifies whether the Medi-Cal beneficiary was also enrolled in Medicare during their month of enrollment, arranged into one of three groups identifying beneficiaries who receive Medicare Parts A, B, or D.",
+            "name": "Dual Status",
+            "title": "Dual Status",
+            "type": "string"
+          },
+          {
+            "description": "The total number of individuals certified eligible for the month of eligibility. Certified eligibles are those beneficiaries deemed qualified for Medi-Cal by a valid eligibility determination, and who have enrolled into the program. This classification excludes beneficiaries who have not met a monthly share-of-cost obligation.",
+            "name": "Total Eligibles",
+            "title": "Total Eligibles",
+            "type": "string"
+          },
+          {
+            "description": "Code for type annotation.\r\n\r\n* 1= suppressed due to small number\r\n* 2= suppressed due to complimentary cell small number\r\n* 3= No data available",
+            "name": "Annotation Code",
+            "title": "Annotation Code",
+            "type": "string"
+          },
+          {
+            "description": "Description of Annotation for COUNT columns.",
+            "name": "Annotation Description",
+            "title": "Annotation Description",
+            "type": "string"
+          },
+          {
+            "description": "Certified eligible counts with a status of “P” are preliminary and subject to change. A specific month’s eligibility count is considered complete for statistical reporting purposes 12 months after the month’s end and indicates a status “F” for final.\r\n\r\n* P (Preliminary)\r\n* F (Final)",
+            "name": "Status",
+            "title": "Status",
+            "type": "string"
+          },
+          {
+            "description": "Date that data was pulled from the DHCS Management Information System/Decision Support System (MIS/DSS) data warehouse.",
+            "name": "Date of Data",
+            "title": "Date Data",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/8c897320-ba87-4574-bc37-bae974191c35/resource/9ade93e4-0676-4117-adbe-a53378d7fe84/download/t6_eligibility_by_medicare_dual_status_201001_oct2026.csv",
+          "title": "By Medicare Dual Status, Certified Eligibles"
+        }
+      ],
+      "title": "By Medicare Dual Status, Certified Eligibles"
+    },
+    {
+      "description": "This is the file for Certified Eligibles by Aid Category.",
+      "format": "CSV",
+      "hash": "a188fcc65de2e715e6f472b61932abf5",
+      "name": "by-aid-category-certified-eligibles",
+      "path": "by-aid-category-certified-eligibles.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Month of Eligibility",
+            "type": "string"
+          },
+          {
+            "name": "County",
+            "type": "string"
+          },
+          {
+            "name": "Aid Category",
+            "type": "string"
+          },
+          {
+            "name": "Total Eligibles",
+            "type": "string"
+          },
+          {
+            "name": "Annotation Code",
+            "type": "string"
+          },
+          {
+            "name": "Annotation Description",
+            "type": "string"
+          },
+          {
+            "name": "Status",
+            "type": "string"
+          },
+          {
+            "name": "Date of Data",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/8c897320-ba87-4574-bc37-bae974191c35/resource/f4ef1bb0-7366-439e-be8b-98f1d06a3af7/download/t7_eligibility_by_aid_category_201001_oct2026.csv",
+          "title": "By Aid Category, Certified Eligibles"
+        }
+      ],
+      "title": "By Aid Category, Certified Eligibles"
+    },
+    {
+      "description": "This is the archived file for Certified eligibles by Aid Category covering January 2010 through August 2024.\r\n\r\n__Note: Caution should be exercised when referencing immigration status data for calendar year 2022. The reliability of the 2022 data has not been fully verified as the data element was integrated into the DHCS MIS/DSS beginning in January 2023.__",
+      "format": "CSV",
+      "hash": "030775dc0337df952db06883df44f566",
+      "name": "archived-by-aid-category-certified-eligibles",
+      "path": "archived-by-aid-category-certified-eligibles.csv",
+      "schema": {
+        "fields": [
+          {
+            "description": "Denotes the year (four-digit) and month (two-digit) during which the Medi-Cal beneficiary was eligible for Medi-Cal.\r\n\r\n* YYYY-MM (e.g., 2016-01 is January 2016)",
+            "name": "Month of Eligibility",
+            "title": "Month of Eligibility",
+            "type": "string"
+          },
+          {
+            "description": "Medi-Cal beneficiary’s county of residence.\r\n\r\n* 58 counties",
+            "name": "County",
+            "title": "County",
+            "type": "string"
+          },
+          {
+            "description": "* ACA Expansion Adult Age 19-64\r\n* Adoption/Foster Care\r\n* CHIP (Children's Health Insurance Program)\r\n* LTC (Long Term Care)\r\n* Other\r\n* Parent/Caretaker Relative & Child\r\n* Seniors and Persons with Disabilities\r\n* Undocumented",
+            "name": "Aid Category",
+            "title": "Aid Category",
+            "type": "string"
+          },
+          {
+            "description": "The total number of individuals certified eligible for the month of eligibility. Certified eligibles are those beneficiaries deemed qualified for Medi-Cal by a valid eligibility determination, and who have enrolled into the program. This classification excludes beneficiaries who have not met a monthly share-of-cost obligation.",
+            "name": "Total Eligibles",
+            "title": "Total Eligibles",
+            "type": "string"
+          },
+          {
+            "description": "Code for type annotation.\r\n\r\n* 1= suppressed due to small number\r\n* 2= suppressed due to complimentary cell small number\r\n* 3= No data available",
+            "name": "Annotation Code",
+            "title": "Annotation Code",
+            "type": "string"
+          },
+          {
+            "description": "Description of Annotation for COUNT columns.",
+            "name": "Annotation Description",
+            "type": "string"
+          },
+          {
+            "description": "Certified eligible counts with a status of “P” are preliminary and subject to change. A specific month’s eligibility count is considered complete for statistical reporting purposes 12 months after the month’s end and indicates a status “F” for final.\r\n\r\n* P (Preliminary)\r\n* F (Final)",
+            "name": "Status",
+            "title": "Status",
+            "type": "string"
+          },
+          {
+            "description": "Date that data was pulled from the DHCS Management Information System/Decision Support System (MIS/DSS) data warehouse.",
+            "name": "Date of Data",
+            "title": "Date of Data",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/8c897320-ba87-4574-bc37-bae974191c35/resource/25a028c1-5ff9-467a-8b45-69005af318e0/download/ca-dhcs-certifiedeligibles-county-aidcat-jan2010-august2024.csv",
+          "title": "(ARCHIVED) By Aid Category, Certified Eligibles"
+        }
+      ],
+      "title": "(ARCHIVED) By Aid Category, Certified Eligibles"
+    },
+    {
+      "description": "Aid Codes for Medi-Cal and the group containing each code.",
+      "format": "CSV",
+      "hash": "c89ff372db59c60f77734144eeb9dac1",
+      "name": "reference-medi-cal-aid-codes-and-aid-code-groups",
+      "path": "reference-medi-cal-aid-codes-and-aid-code-groups.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Aid_Code",
+            "type": "string"
+          },
+          {
+            "name": "Aid_Code_Category_Desc",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/8c897320-ba87-4574-bc37-bae974191c35/resource/bd979960-801a-442f-bd44-75b8c7bf2150/download/medi-cal_aid_code_groups_0726.csv",
+          "title": "(Reference) Medi-Cal Aid Codes and Aid Code Groups"
+        }
+      ],
+      "title": "(Reference) Medi-Cal Aid Codes and Aid Code Groups"
+    },
+    {
+      "description": "The Reference table maintained by DHCS, displays aid code categories by aid code. Aid codes identify the criteria by which each person qualifies for Medi-Cal and the types of services he or she receives and make clear whether the services are funded by the State or Federal government or both. An aid code is a combination of two numbers or a letter and a number and is attached to a Medi-Cal beneficiary's identification numbers. Aid code category refers to a unique grouping of distinct aid codes into broad categories such as CHIP, Seniors and Persons with Disabilities, and Long-Term Care. For a description of each aid code, see [Medi-Cal Aid Code Master Chart](https://www.dhcs.ca.gov/wp-content/uploads/2025/12/2026-Master-Aid-Code-Chart.pdf).",
+      "format": "PDF",
+      "name": "dhcs-medi-cal-aid-category-grouping-schema",
+      "path": "dhcs-medi-cal-aid-category-grouping-schema.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/8c897320-ba87-4574-bc37-bae974191c35/resource/a7ba8eda-d4dc-49db-a925-8ffb423efa0e/download/updated_072026-aid-category-grouping-schema.pdf",
+          "title": "DHCS Medi-Cal Aid Category Grouping Schema"
+        }
+      ],
+      "title": "DHCS Medi-Cal Aid Category Grouping Schema"
+    }
+  ],
+  "secondary_sources": "",
+  "sources": [
+    {
+      "name": "Enterprise Data and Information Management / Data Management and Analytics Division",
+      "web": "https://www.dhcs.ca.gov/data-statistics/fast-facts"
+    }
+  ],
+  "temporal_coverage": "January 2010 - October 2026",
+  "title": "Medi-Cal Certified Eligibles Data by Month with Demographics"
+}

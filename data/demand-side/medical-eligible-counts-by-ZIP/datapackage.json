@@ -1,0 +1,228 @@
+{
+  "accrual_periodicity": "monthly",
+  "additional_limitations": "__User is free to copy, use, and distribute the data; create new works from the data; and to modify, transform, and build upon the data. User must share copies or derivative work under the same license. User must attribute any public use of the data or derivative works produced from the data and cite the source of the data as CalHHS Open Data.__\r\n\r\nThe presented eligible counts for the most recent month are considered preliminary and are subject to change. Eligibility for Medi-Cal may occur retroactively and it may take time for eligibility determinations to be processed and reported to DHCS. As such, eligibility data is approximately 96% complete for the current month, 98% complete within one month, and over 99% complete within 2 months. Eligibility counts for a specific month are considered complete for statistical reporting purposes 12 months after the month's end.\r\n\r\nThe eligibility data included in this document represent only certified eligible counts. Certified eligibles are those beneficiaries deemed qualified for Medi-Cal by a valid eligibility determination, and who have enrolled into the program. This classification excludes beneficiaries who have not met a monthly share-of-cost obligation. Additionally, the presented eligibility counts exclude information related to applications received or any other eligible that may be in the process of becoming certified eligible.",
+  "citation": "State of California, Department of Health Care Services, Medi-Cal Certified Eligibles by Month of Eligibility, Zip Code, and Sex",
+  "contact_email": "opendata@dhcs.ca.gov",
+  "data_collection_tool": "MIS/DSS Data Warehouse",
+  "data_license": "Terms of Use",
+  "de_identification_method": "http://www.dhcs.ca.gov/dataandstats/Pages/PublicReportingGuidelines.aspx",
+  "description": "Dataset contains counts of individuals certified eligible for Medi-Cal, by Month of Eligibility, Zip Code, and Sex, from Calendar Year 2005 to the most recent reportable month. Due to the amount of data presented, below the dataset has been split into three files. All datasets are derived from the most recent reportable months information.\r\n\r\n",
+  "extras": {
+    "twitter_popup": []
+  },
+  "geo_coverage": "Statewide",
+  "geographic_granularity": "zip code",
+  "keywords": [
+    "DHCS",
+    "Healthcare",
+    "Medi-Cal Eligiblity",
+    "certified eligibles",
+    "medi-cal",
+    "monthly",
+    "sex",
+    "zip code"
+  ],
+  "limitations": "Limitations",
+  "name": "medi-cal-certified-eligible-counts-by-month-of-eligibility-zip-code-and-sex",
+  "program_web_page": "www.dhcs.ca.gov",
+  "related_resources": "",
+  "resources": [
+    {
+      "description": "These data is derived from the first part of the most recent iteration of the Medi-Cal Certified Eligible Counts, by Month of Eligiblity, Zip Code, and Sex dataset. It contains counts of individuals certified eligible for Medi-Cal, by Month of Eligibility, Zip Code, and Sex, from Calendar Years 2005 to 2009.",
+      "format": "CSV",
+      "hash": "8d0ec60ab896a09dc683b6db16288746",
+      "name": "calendar-years-2005-2009",
+      "path": "calendar-years-2005-2009.csv",
+      "schema": {
+        "fields": [
+          {
+            "description": "Denotes the year (four-digit) and month (two-digit) during which the Medi-Cal beneficiary was eligible for Medi-Cal.\r\n\r\n•\tYYYY-MM (e.g., 2016-01 is January 2016)",
+            "name": "Month of Eligibility",
+            "title": "Month of Eligibility",
+            "type": "string"
+          },
+          {
+            "description": "Identifies Medi-Cal beneficiaries’ residential five-digit zip code. \r\n\r\nBeneficiaries with invalid or out-of-state zip codes are represented by blank Zip Codes. \r\n",
+            "name": "Zip Code",
+            "title": "Zip Code",
+            "type": "number"
+          },
+          {
+            "description": "Identifies the Medi-Cal beneficiary’s sex.\r\n\r\n•\tM (Male)\r\n\r\n•\tF (Female)\r\n",
+            "name": "Sex",
+            "title": "Sex",
+            "type": "string"
+          },
+          {
+            "description": "The total number of individuals certified eligible for the month of eligibility. Certified eligibles are those beneficiaries deemed qualified for Medi-Cal by a valid eligibility determination, and who have enrolled into the program. This classification excludes beneficiaries who have not met a monthly share-of-cost obligation.  ",
+            "name": "Total Eligibles",
+            "title": "Total Eligibles",
+            "type": "number"
+          },
+          {
+            "description": "Code for type annotation. \r\n\r\n1= suppressed due to small number \r\n\r\n2= suppressed due to complimentary cell small number \r\n\r\n3= No data available",
+            "name": "Annotation Code",
+            "title": "Annotation Code",
+            "type": "string"
+          },
+          {
+            "description": "Description of Annotation for COUNT columns",
+            "name": "Annotation Description",
+            "title": "Count Annotation Description",
+            "type": "string"
+          },
+          {
+            "description": "•\tP (Preliminary)\r\n\r\n•\tF (Final)\r\n\r\nCertified eligible counts with a status of “P” are preliminary and subject to change. A specific month’s eligibility count is considered complete for statistical reporting purposes 12 months after the month’s end, and indicates a status “F” for final.\r\n",
+            "name": "Status",
+            "title": "Status",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/2065f24c-237c-426f-853b-a8c307d557a9/resource/b3b7f332-56cc-4a48-a0da-282a4b776100/download/zip_sex_cy2005-cy2009.csv",
+          "title": "Calendar Years 2005-2009"
+        }
+      ],
+      "title": "Calendar Years 2005-2009"
+    },
+    {
+      "description": "Dataset contains counts of individuals certified eligible for Medi-Cal, by Month of Eligibility, Zip Code, and Sex, from Calendar Year 2010 to 2019. Due to the amount of data presented, below the dataset has been split into three files. All datasets are derived from the most recent reportable months information.",
+      "format": "CSV",
+      "hash": "8801b5293da3b48865d8672a0bf1eff5",
+      "name": "calendar-years-2010-2019",
+      "path": "calendar-years-2010-2019.csv",
+      "schema": {
+        "fields": [
+          {
+            "description": "Denotes the year (four-digit) and month (two-digit) during which the Medi-Cal beneficiary was eligible for Medi-Cal.\r\n\r\nYYYY-MM (e.g., 2016-01 is January 2016)",
+            "name": "Month of Eligibility",
+            "title": "Month of Eligibility",
+            "type": "string"
+          },
+          {
+            "description": "Identifies Medi-Cal beneficiaries' residential five-digit zip code. Beneficiaries with invalid or out-of-state zip codes are represented by blank Zip Codes.",
+            "name": "Zip Code",
+            "title": "Zip Code",
+            "type": "string"
+          },
+          {
+            "description": "Identifies the Medi-Cal beneficiary's sex.\r\n\r\nM (Male)\r\n\r\nF (Female)",
+            "name": "Sex",
+            "title": "Sex",
+            "type": "string"
+          },
+          {
+            "description": "The total number of individuals certified eligible for the month of eligibility. Certified eligibles are those beneficiaries deemed qualified for Medi-Cal by a valid eligibility determination, and who have enrolled into the program. This classification excludes beneficiaries who have not met a monthly share-of-cost obligation.",
+            "name": "Total Eligibles",
+            "title": "Total Eligibles",
+            "type": "string"
+          },
+          {
+            "description": "Code for type annotation. \r\n\r\n1= suppressed due to small number ",
+            "name": "Annotation Code",
+            "title": "Annotation Code",
+            "type": "string"
+          },
+          {
+            "description": "Description of Annotation for COUNT columns.",
+            "name": "Annotation Description",
+            "title": "Annotation Description",
+            "type": "string"
+          },
+          {
+            "description": "Certified eligible counts with a status of “P” are preliminary and subject to change. A specific month’s eligibility count is considered complete for statistical reporting purposes 12 months after the month’s end and indicates a status “F” for final.\r\n\r\nP (Preliminary)\r\n\r\nF (Final)",
+            "name": "Status",
+            "type": "string"
+          },
+          {
+            "description": "Date that data was pulled from the DHCS Management Information System/Decision Support System (MIS/DSS) data warehouse.",
+            "name": "Date_Data",
+            "title": "Date of Data",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/2065f24c-237c-426f-853b-a8c307d557a9/resource/8cb09bf3-00f1-463a-ab75-2e60af824635/download/zip_sex_cy2010-cy2019.csv",
+          "title": "Calendar Years 2010-2019"
+        }
+      ],
+      "title": "Calendar Years 2010-2019"
+    },
+    {
+      "description": "Dataset contains counts of individuals certified eligible for Medi-Cal, by Month of Eligibility, Zip Code, and Sex, from Calendar Year 2020 to the most recent reportable month. Due to the amount of data presented, below the dataset has been split into three files. All datasets are derived from the most recent reportable months information.",
+      "format": "CSV",
+      "hash": "d04bd38775274d6b4864b9fb471c2a15",
+      "name": "calendar-years-2020-to-the-most-recent-reportable-month",
+      "path": "calendar-years-2020-to-the-most-recent-reportable-month.csv",
+      "schema": {
+        "fields": [
+          {
+            "description": "Denotes the year (four-digit) and month (two-digit) during which the Medi-Cal beneficiary was eligible for Medi-Cal.\r\n\r\nYYYY-MM (e.g., 2016-01 is January 2016)",
+            "name": "Month of Eligibility",
+            "title": "Month of Eligibility",
+            "type": "string"
+          },
+          {
+            "description": "Identifies Medi-Cal beneficiaries residential five-digit zip code. Beneficiaries with invalid or out-of-state zip codes are represented by blank Zip Codes.",
+            "name": "Zip Code",
+            "title": "Zip Code",
+            "type": "string"
+          },
+          {
+            "description": "Identifies the Medi-Cal beneficiary's sex.\r\n\r\nM (Male)\r\n\r\nF (Female)",
+            "name": "Sex",
+            "title": "Sex",
+            "type": "string"
+          },
+          {
+            "description": "The total number of individuals certified eligible for the month of eligibility. Certified eligibles are those beneficiaries deemed qualified for Medi-Cal by a valid eligibility determination, and who have enrolled into the program. This classification excludes beneficiaries who have not met a monthly share-of-cost obligation.",
+            "name": "Total Eligibles",
+            "title": "Total Eligibles",
+            "type": "string"
+          },
+          {
+            "description": "Code for type annotation. \r\n\r\n1= suppressed due to small number \r\n\r\n2= suppressed due to complimentary cell small number \r\n\r\n3= No data available",
+            "name": "Annotation Code",
+            "title": "Annotation Code",
+            "type": "string"
+          },
+          {
+            "description": "Description of Annotation for COUNT columns.",
+            "name": "Annotation Description",
+            "title": "Annotation Description",
+            "type": "string"
+          },
+          {
+            "description": "Certified eligible counts with a status of \"P\" are preliminary and subject to change. A specific month's eligibility count is considered complete for statistical reporting purposes 12 months after the month's end and indicates a status \"F\" for final.\r\n\r\nP (Preliminary)\r\n\r\nF (Final)\r\n",
+            "name": "Status",
+            "title": "Status",
+            "type": "string"
+          },
+          {
+            "name": "Date of Data",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/2065f24c-237c-426f-853b-a8c307d557a9/resource/55391885-76d4-4fa1-9af8-74844386fc48/download/oct2026_productionsecondsheet_2020_recent.csv",
+          "title": "Calendar Years 2020 to the Most Recent Reportable Month"
+        }
+      ],
+      "title": "Calendar Years 2020 to the Most Recent Reportable Month"
+    }
+  ],
+  "secondary_sources": "",
+  "sources": [
+    {
+      "name": "Enterprise Data and Information Management / Data Management and Analytics Division"
+    }
+  ],
+  "temporal_coverage": "Calendar Year 2005 - Most Recent Reportable Month",
+  "title": "Medi-Cal Certified Eligible Counts, by Month of Eligibility, Zip Code, and Sex"
+}

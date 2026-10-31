@@ -1,0 +1,26 @@
+column,type,label,description
+Month of Eligibility,text,Month of Eligibility,"Denotes the year (four-digit) and month (two-digit) during which the Medi-Cal beneficiary was eligible for Medi-Cal.
+
+* YYYY-MM (e.g., 2016-01 is January 2016)"
+County,text,County,"Medi-Cal beneficiary's county of residence.
+
+* 58 counties"
+Dual Status,text,Dual Status,"Identifies whether the Medi-Cal beneficiary was also enrolled in Medicare during their month of enrollment, arranged into one of three groups identifying beneficiaries who receive Medicare Parts A, B, or D."
+Age Group,text,Age Group,"Medi-Cal beneficiary’s age arranged into one of four age groups:
+
+* Children 0-18
+* Adults 19-44
+* Adults 45-64
+* Seniors 65 and older."
+Total Eligibles,text,Total Eligibles,"The total number of individuals certified eligible for the month of eligibility. Certified eligibles are those beneficiaries deemed qualified for Medi-Cal by a valid eligibility determination, and who have enrolled into the program. This classification excludes beneficiaries who have not met a monthly share-of-cost obligation."
+Annotation Code,text,Annotation Code,"Code for type annotation.
+
+* 1= suppressed due to small number
+* 2= suppressed due to complimentary cell small number
+* 3= No data available"
+Annotation Description,text,Annotation Description,Description of Annotation for COUNT columns.
+Status,text,Status,"Certified eligible counts with a status of ""P"" are preliminary and subject to change. A specific month's eligibility count is considered complete for statistical reporting purposes 12 months after the month's end, and indicates a status of ""F"" for final.
+
+* P (Preliminary)
+* F (Final)"
+Date of Data,text,,

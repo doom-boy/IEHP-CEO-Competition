@@ -1,0 +1,9 @@
+column,type,label,description
+Month of Eligibility,text,,
+County,text,,
+Aid Category,text,,
+Total Eligibles,text,,
+Annotation Code,text,,
+Annotation Description,text,,
+Status,text,,
+Date of Data,text,,
