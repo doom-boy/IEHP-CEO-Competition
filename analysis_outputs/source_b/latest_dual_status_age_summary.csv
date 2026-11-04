@@ -1,0 +1,17 @@
+County,Dual Status,Age Group,Count,valid_cells,source_cells,complete
+Riverside,Dual,Age 00-18,,0,1,False
+Riverside,Dual,Age 19-44,,0,1,False
+Riverside,Dual,Age 45-64,16481,1,1,True
+Riverside,Dual,Age 65+,76766,1,1,True
+Riverside,Non-Dual,Age 00-18,344153,1,1,True
+Riverside,Non-Dual,Age 19-44,303264,1,1,True
+Riverside,Non-Dual,Age 45-64,139234,1,1,True
+Riverside,Non-Dual,Age 65+,8817,1,1,True
+San Bernardino,Dual,Age 00-18,,0,1,False
+San Bernardino,Dual,Age 19-44,,0,1,False
+San Bernardino,Dual,Age 45-64,16695,1,1,True
+San Bernardino,Dual,Age 65+,74274,1,1,True
+San Bernardino,Non-Dual,Age 00-18,340141,1,1,True
+San Bernardino,Non-Dual,Age 19-44,301946,1,1,True
+San Bernardino,Non-Dual,Age 45-64,138722,1,1,True
+San Bernardino,Non-Dual,Age 65+,10700,1,1,True

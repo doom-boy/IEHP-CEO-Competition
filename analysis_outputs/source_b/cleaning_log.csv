@@ -1,0 +1,7 @@
+table,rows_before,duplicate_rows_removed,invalid_rows_removed,rows_after,nonnumeric_or_blank_count_cells,annotated_cells,preliminary_rows
+age_sex,93469,0,0,93469,174,174,5580
+primary_language,252912,0,0,252912,94805,94805,16523
+race_age,277204,0,0,277204,22592,22592,16518
+dual_age,85727,0,0,85727,9498,9498,5037
+dual_status,23520,0,0,23520,3,3,1404
+delivery_plan,49920,0,0,49920,1298,1298,3673

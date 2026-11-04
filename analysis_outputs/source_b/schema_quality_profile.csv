@@ -1,0 +1,54 @@
+table,column,dtype,missing_n,missing_pct,unique_n,whitespace_values_n,tukey_count_outliers_n,table_duplicate_rows_n
+age_sex,Month of Eligibility,string,0,0.0,201,0,0,0
+age_sex,County,string,0,0.0,60,0,0,0
+age_sex,Age Group,string,0,0.0,5,0,0,0
+age_sex,Gender,string,0,0.0,3,0,0,0
+age_sex,Total Eligibles,string,174,0.0018615797751126042,37477,0,11159,0
+age_sex,Annotation Code,string,93295,0.9981384202248874,2,0,0,0
+age_sex,Annotation Description,string,93094,0.9959879746226021,3,0,0,0
+age_sex,Status,string,0,0.0,2,0,0,0
+age_sex,Date of Data,string,53013,0.5671720035519798,74,1395,0,0
+primary_language,Month of Eligibility,string,0,0.0,201,0,0,0
+primary_language,County,string,0,0.0,60,0,0,0
+primary_language,Language,string,0,0.0,34,2573,0,0
+primary_language,Total Eligibles,string,94805,0.37485370405516544,25761,0,28781,0
+primary_language,Annotation Code,string,158107,0.6251462959448346,2,0,0,0
+primary_language,Annotation Description,string,157906,0.624351553109382,3,0,0,0
+primary_language,Status,string,0,0.0,2,0,0,0
+primary_language,Date of Data,string,138139,0.5461939330676283,74,3736,0,0
+primary_language,Difference,string,252912,1.0,0,0,0,0
+race_age,Month of Eligibility,string,0,0.0,201,0,0,0
+race_age,County,string,0,0.0,60,0,0,0
+race_age,Age Group,string,0,0.0,5,0,0,0
+race_age,Ethnicity,string,0,0.0,7,0,0,0
+race_age,Total Eligibles,string,22592,0.08149954546110445,39848,0,34634,0
+race_age,Annotation Code,string,254612,0.9185004545388955,2,0,0,0
+race_age,Annotation Description,string,254411,0.9177753567769585,3,0,0,0
+race_age,Status,string,0,0.0,2,0,0,0
+race_age,Date of Data,string,157187,0.5670444870925383,74,4136,0,0
+dual_age,Month of Eligibility,string,0,0.0,201,0,0,0
+dual_age,County,string,0,0.0,60,0,0,0
+dual_age,Dual Status,string,0,0.0,3,0,0,0
+dual_age,Age Group,string,0,0.0,5,0,0,0
+dual_age,Total Eligibles,string,9498,0.11079356562109954,31156,0,11311,0
+dual_age,Annotation Code,string,76229,0.8892064343789005,2,0,0,0
+dual_age,Annotation Description,string,76028,0.8868617821689783,3,0,0,0
+dual_age,Status,string,0,0.0,2,0,0,0
+dual_age,Date of Data,string,49088,0.5726083964211975,74,1280,0,0
+dual_status,Month of Eligibility,string,0,0.0,201,0,0,0
+dual_status,County,string,0,0.0,60,0,0,0
+dual_status,Dual Status,string,0,0.0,3,0,0,0
+dual_status,Total Eligibles,string,3,0.00012755102040816328,18627,0,3423,0
+dual_status,Annotation Code,string,23517,0.9998724489795918,1,0,0,0
+dual_status,Annotation Description,string,23316,0.9913265306122448,2,0,0,0
+dual_status,Status,string,0,0.0,2,0,0,0
+dual_status,Date of Data,string,13340,0.5671768707482994,74,351,0,0
+delivery_plan,Month of Eligibility,string,0,0.0,201,0,0,0
+delivery_plan,County,string,0,0.0,60,0,0,0
+delivery_plan,Health Delivery System,string,0,0.0,3,0,0,0
+delivery_plan,Health Plan,string,0,0.0,275,0,0,0
+delivery_plan,Total Eligibles,string,1298,0.026001602564102565,25543,0,6708,0
+delivery_plan,Annotation Code,string,48622,0.9739983974358974,2,0,0,0
+delivery_plan,Annotation Description,string,48421,0.9699719551282051,3,0,0,0
+delivery_plan,Status,string,0,0.0,2,0,0,0
+delivery_plan,Date of Data,string,25355,0.5079126602564102,74,786,0,0

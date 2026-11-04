@@ -1,0 +1,9 @@
+County,Age Group,Count,valid_cells,source_cells,complete,Share
+Riverside,Age 00-18,344160,2,2,True,0.38452127570430206
+Riverside,Age 19-44,309577,2,2,True,0.3458825632517164
+Riverside,Age 45-64,155715,2,2,True,0.17397643667566073
+Riverside,Age 65+,85583,2,2,True,0.0956197243683208
+San Bernardino,Age 00-18,340142,2,2,True,0.3826812279839206
+San Bernardino,Age 19-44,308306,2,2,True,0.3468637177261574
+San Bernardino,Age 45-64,155417,2,2,True,0.17485393867730825
+San Bernardino,Age 65+,84974,2,2,True,0.09560111561261375

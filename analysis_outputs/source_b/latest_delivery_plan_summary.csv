@@ -1,0 +1,25 @@
+County,Health Delivery System,Health Plan,Count,valid_cells,source_cells,complete
+Riverside,Fee-for-Service,Fee-for-Service,35046,1,1,True
+Riverside,Managed Care,Inland Empire Health Plan/Riverside,667613,1,1,True
+Riverside,Managed Care,InnovAge PACE/Riverside,223,1,1,True
+Riverside,Managed Care,Kaiser Permanente/Riverside,90805,1,1,True
+Riverside,Managed Care,Loma Linda University Health PACE/Riverside,,0,1,False
+Riverside,Managed Care,Molina Healthcare of California/Riverside,80305,1,1,True
+Riverside,Managed Care,Neighborhood Healthcare PACE/Riverside,323,1,1,True
+Riverside,Managed Care,Out of County Plan,15205,1,1,True
+Riverside,Managed Care,SCAN Health Plan/Riverside,4857,1,1,True
+Riverside,Managed Care,WelbeHealth Inland Empire/Riverside,618,1,1,True
+Riverside,Managed Care,WelbeHealth San Bernardino PACE/Riverside,,0,1,False
+San Bernardino,Fee-for-Service,Fee-for-Service,31823,1,1,True
+San Bernardino,Managed Care,AltaMed PACE/San Bernardino,,0,1,False
+San Bernardino,Managed Care,High Desert PACE/San Bernardino,167,1,1,True
+San Bernardino,Managed Care,Inland Empire Health Plan/San Bernardino,669927,1,1,True
+San Bernardino,Managed Care,InnovAge PACE/San Bernardino,755,1,1,True
+San Bernardino,Managed Care,Kaiser Permanente/San Bernardino,98884,1,1,True
+San Bernardino,Managed Care,Loma Linda University Health PACE/San Bernardino,105,1,1,True
+San Bernardino,Managed Care,Molina Healthcare of California/San Bernardino,70516,1,1,True
+San Bernardino,Managed Care,Neighborhood Healthcare PACE/San Bernardino,97,1,1,True
+San Bernardino,Managed Care,Out of County Plan,12523,1,1,True
+San Bernardino,Managed Care,SCAN Health Plan/San Bernardino,3839,1,1,True
+San Bernardino,Managed Care,WelbeHealth Inland Empire/San Bernardino,,0,1,False
+San Bernardino,Managed Care,WelbeHealth San Bernardino PACE/San Bernardino,180,1,1,True

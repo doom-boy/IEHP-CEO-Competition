@@ -1,0 +1,65 @@
+County,Language,Count,valid_cells,source_cells,complete,Share_of_reported
+Riverside,ASL,472,1,1,True,0.0005273566249176005
+Riverside,Arabic,2194,1,1,True,0.0024513144810788465
+Riverside,Armenian,80,1,1,True,8.938247879959331e-05
+Riverside,Cambodian,385,1,1,True,0.0004301531792230428
+Riverside,Cantonese,627,1,1,True,0.0007005351775918125
+Riverside,English,669068,1,1,True,0.7475369540685787
+Riverside,Farsi,703,1,1,True,0.0007854485324514262
+Riverside,French,43,1,1,True,4.80430823547814e-05
+Riverside,Hebrew,,0,1,False,
+Riverside,Hindi,232,1,1,True,0.0002592091885188206
+Riverside,Hmong,75,1,1,True,8.379607387461872e-05
+Riverside,Ilocano,31,1,1,True,3.4635710534842405e-05
+Riverside,Italian,18,1,1,True,2.0111057729908494e-05
+Riverside,Japanese,35,1,1,True,3.910483447482207e-05
+Riverside,Korean,935,1,1,True,0.0010446577209702469
+Riverside,Lao,250,1,1,True,0.0002793202462487291
+Riverside,Mandarin,3134,1,1,True,0.003501558606974068
+Riverside,Mien,,0,1,False,
+Riverside,Missing/Unknown,2068,1,1,True,0.002310537076969487
+Riverside,Other Chinese,152,1,1,True,0.0001698267097192273
+Riverside,Other Non-Eng,1131,1,1,True,0.0012636447940292505
+Riverside,Other Sign,36,1,1,True,4.022211545981699e-05
+Riverside,Polish,12,1,1,True,1.3407371819938996e-05
+Riverside,Portuguese,70,1,1,True,7.820966894964414e-05
+Riverside,Punjabi,304,1,1,True,0.0003396534194384546
+Riverside,Russian,356,1,1,True,0.0003977520306581902
+Riverside,Samoan,40,1,1,True,4.4691239399796654e-05
+Riverside,Spanish,208816,1,1,True,0.23330614616269846
+Riverside,Tagalog,975,1,1,True,0.0010893489603700434
+Riverside,Thai,98,1,1,True,0.0001094935365295018
+Riverside,Turkish,42,1,1,True,4.692580136978649e-05
+Riverside,Vietnamese,2648,1,1,True,0.0029585600482665386
+San Bernardino,ASL,339,1,1,True,0.000381407562670663
+San Bernardino,Arabic,2317,1,1,True,0.0026068475596104017
+San Bernardino,Armenian,131,1,1,True,0.00014738758321491697
+San Bernardino,Cambodian,480,1,1,True,0.000540046106436337
+San Bernardino,Cantonese,1526,1,1,True,0.0017168965800455215
+San Bernardino,English,687027,1,1,True,0.7729713674304943
+San Bernardino,Farsi,393,1,1,True,0.0004421627496447509
+San Bernardino,French,40,1,1,True,4.5003842203028084e-05
+San Bernardino,Hebrew,,0,1,False,
+San Bernardino,Hindi,253,1,1,True,0.00028464930193415264
+San Bernardino,Hmong,14,1,1,True,1.5751344771059828e-05
+San Bernardino,Ilocano,,0,1,False,
+San Bernardino,Italian,,0,1,False,
+San Bernardino,Japanese,21,1,1,True,2.3627017156589743e-05
+San Bernardino,Korean,1485,1,1,True,0.0016707676417874176
+San Bernardino,Lao,91,1,1,True,0.00010238374101188889
+San Bernardino,Mandarin,8222,1,1,True,0.009250539764832423
+San Bernardino,Mien,,0,1,False,
+San Bernardino,Missing/Unknown,1679,1,1,True,0.0018890362764721039
+San Bernardino,Other Chinese,223,1,1,True,0.0002508964202818816
+San Bernardino,Other Non-Eng,1168,1,1,True,0.00131411219232842
+San Bernardino,Other Sign,28,1,1,True,3.1502689542119656e-05
+San Bernardino,Polish,,0,1,False,
+San Bernardino,Portuguese,30,1,1,True,3.3752881652271065e-05
+San Bernardino,Punjabi,366,1,1,True,0.00041178515615770695
+San Bernardino,Russian,203,1,1,True,0.00022839449918036751
+San Bernardino,Samoan,38,1,1,True,4.275365009287668e-05
+San Bernardino,Spanish,178686,1,1,True,0.2010389136972569
+San Bernardino,Tagalog,788,1,1,True,0.0008865756913996533
+San Bernardino,Thai,129,1,1,True,0.00014513739110476556
+San Bernardino,Turkish,14,1,1,True,1.5751344771059828e-05
+San Bernardino,Vietnamese,3122,1,1,True,0.003512549883946342

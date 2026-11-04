@@ -1,0 +1,15 @@
+metric,value,interpretation
+"Combined certified eligibles, Riverside + San Bernardino",1783874,Latest common month 2026-10; county totals require all age-by-gender cells.
+Certified eligibles — Riverside,895035,2026-10; all age-by-gender cells complete=True.
+Certified eligibles — San Bernardino,888839,2026-10; all age-by-gender cells complete=True.
+Largest age group — Riverside,Age 00-18,38.5% of complete age/sex count.
+Most reported primary language — Riverside,English,74.8% of numeric reported language counts; not an English-proficiency measure.
+Largest age group — San Bernardino,Age 00-18,38.3% of complete age/sex count.
+Most reported primary language — San Bernardino,English,77.3% of numeric reported language counts; not an English-proficiency measure.
+Fee-for-Service share — Riverside,0.03915776065788077,Share of numeric reported Source B delivery-system counts in 2026-10.
+Managed Care share — Riverside,0.9608422393421192,Share of numeric reported Source B delivery-system counts in 2026-10.
+Fee-for-Service share — San Bernardino,0.03580381091249482,Share of numeric reported Source B delivery-system counts in 2026-10.
+Managed Care share — San Bernardino,0.9641961890875052,Share of numeric reported Source B delivery-system counts in 2026-10.
+IEHP-labeled Source B plan count,1337540,Latest county-level plan-table count; not IEHP's verified UIS or total member count.
+Largest county distribution effect size,Race/ethnicity,Cramér's V=0.085; BH-adjusted p=0.
+Best 12-month holdout model by MAE,Ridge seasonal + lags,"MAE=25,351 members; historical enrollment trend only."
