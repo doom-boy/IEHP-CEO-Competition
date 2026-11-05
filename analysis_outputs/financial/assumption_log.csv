@@ -11,4 +11,6 @@ Medical cost share,94.7% (test 88.8%),"Sourced, all lines",IEHP CY2026 budget. N
 Operating cost share,6.0%,"Sourced, all lines",IEHP CY2026 budget
 Fixed share of operating cost,60% (test 40–80%),Assumption,Workbook B59
 Extra FFS cost from year 2,5% (test 0–10%),Assumption,Workbook B78
-Trigger limits,"0%, +5%, +10%",Team assumption,"Examples only, Section 8"
+Stoplight levels,"Yellow above +5%, red above +10%",Team assumption,"Examples only, Section 8"
+Glide path paces,"20%, 33%, 50% a year",Team assumption,"Examples only, Section 8"
+Other lines of business,"72,263 members",Sourced,"IEHP Fact Sheet, Oct 2026"
