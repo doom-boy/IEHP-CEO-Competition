@@ -1,0 +1,9 @@
+Metric,Baseline,Source,Proposed owner (role),Proposed check
+IEHP Medi-Cal enrollment,"1,363,303","Source D, Sep 2026",Finance lead,"Monthly vs this baseline; investigate a drop beyond what the 119,600 estimate explains"
+"Members already in FFS, two counties","99,206","Source B, Sep 2026",Finance lead,"Expect a step up in January; track against 119,600"
+"Listed FFS core PCPs per 1,000 Medi-Cal members",2.34,Sources A and E,Provider network lead,Rise in priority ZIPs after outreach
+Ranked ZIPs with no listed core PCP,34 of 126,Sources A and E,Provider network lead,Fall as providers enroll; recheck monthly
+Fixed operating cost per member per month,$17.75,"Workbook, 60% fixed share (assumption)",Chief Financial Officer,"Team stoplight: yellow above +5%, red above +10%"
+Members with a verified FFS provider or appointment in 30 days,IEHP to set,IEHP data,Care management lead,Target set by IEHP before Jan 1
+Medication and referral continuity rate,IEHP to set,IEHP data,Care management lead,Target set by IEHP before Jan 1
+Emergency visits after transition,IEHP to set,IEHP data,Care management lead,Compare with the same members before the move

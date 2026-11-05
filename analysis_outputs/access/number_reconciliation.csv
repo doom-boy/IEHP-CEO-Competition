@@ -1,0 +1,9 @@
+Measure,Value,Source,Date,Use it for
+"All Medi-Cal, two counties",1805023,"Source A, ZIP file, residential-weighted",Sep 2026 (prelim.),"ZIP-level demand. Visible ZIP counts only, may understate"
+"All Medi-Cal, two counties",1817318,"Source B, age and sex table",Sep 2026 (prelim.),"County demographics. Compare with Source A, not with IEHP"
+"All Medi-Cal, two counties",1783874,"Source B, age and sex table",Oct 2026 (prelim.),Latest month. Use the month that matches your other numbers
+IEHP Medi-Cal enrollment,1363303,"Source D, State enrollment report",Sep 2026 (prelim.),IEHP size in the financial model
+"IEHP Medi-Cal, fact sheet",1321983,"Source C, IEHP fact sheet via workbook",Oct 2026,"Footnote only. Excludes DualChoice, which likely explains the gap to Source D"
+"Already in FFS, two counties",99206,"Source B, delivery system table",Sep 2026 (prelim.),Baseline for how much FFS grows
+"UIS members, two counties",172459,DHCS via Q&A email,Jun 2026,Broader than IEHP's group. Not a January count
+IEHP estimated transitioning,119600,IEHP via Q&A email,Latest IEHP estimate,Planning base case. Use scenarios around it

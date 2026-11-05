@@ -1,0 +1,9 @@
+Allocation,Provider definition,Top-10 overlap with baseline,ZIPs with no listed PCP,Rank correlation with baseline,Top 3 ZIPs
+A: proportional to ZIP Medi-Cal,PCP core,10,34,1.0,"92240, 92551, 92880"
+A: proportional to ZIP Medi-Cal,"PCP core, minus reported N/M",10,34,1.0,"92240, 92551, 92880"
+A: proportional to ZIP Medi-Cal,PCP core + nurse practitioners,4,19,0.89,"92274, 92596, 92582"
+A: proportional to ZIP Medi-Cal,PCP core + NPs + clinic locations,3,15,0.88,"92596, 92582, 92532"
+B: county UIS-weighted,PCP core,10,34,1.0,"92240, 92551, 92880"
+B: county UIS-weighted,"PCP core, minus reported N/M",10,34,1.0,"92240, 92551, 92880"
+B: county UIS-weighted,PCP core + nurse practitioners,4,19,0.89,"92274, 92596, 92582"
+B: county UIS-weighted,PCP core + NPs + clinic locations,3,15,0.88,"92596, 92582, 92532"
