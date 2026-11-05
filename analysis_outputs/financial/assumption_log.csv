@@ -1,0 +1,14 @@
+Item,Value,Type,Where it comes from
+IEHP Medi-Cal members,"1,363,303",Sourced,"Source D, Sep 2026 (preliminary)"
+Share of members affected,10% / 14.3% / 18%,Assumption,Case guide. Statewide 2M of 14M. Applied evenly
+State payment rates,UIS federal + state-only parts added,"Sourced, reading unverified","DHCS CY2026 rates, workbook Step 2"
+Member mix,Statewide program counts,"Sourced, then assumed",About 1.28M of 2M. Same mix assumed for the rest
+65+ share of 50+ group,25% (test 15–35%),Assumption,Workbook B35
+Disability share of adults,2% (test 1–4%),Assumption,Workbook B36
+Priced as parents/caretakers,30% (test 20–40%),Assumption,Workbook B37
+Chronic share of adults,"50% (what-ifs 40%, 65%)","Assumption, KFF basis","Workbook B38, B84, D84"
+Medical cost share,94.7% (test 88.8%),"Sourced, all lines",IEHP CY2026 budget. Not UIS-specific
+Operating cost share,6.0%,"Sourced, all lines",IEHP CY2026 budget
+Fixed share of operating cost,60% (test 40–80%),Assumption,Workbook B59
+Extra FFS cost from year 2,5% (test 0–10%),Assumption,Workbook B78
+Trigger limits,"0%, +5%, +10%",Team assumption,"Examples only, Section 8"
