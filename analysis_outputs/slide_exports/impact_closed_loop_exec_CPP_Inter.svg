@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-16T21:55:53.338241</dc:date>
+    <dc:date>2026-11-17T12:50:46.343880</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -30,343 +30,203 @@ z
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 86.3784 383.4 
-L 719.82 383.4 
-L 719.82 86.4 
-L 86.3784 86.4 
+    <path d="M 95.976 415.8 
+L 911.772 415.8 
+L 911.772 118.8 
+L 95.976 118.8 
 z
 " style="fill: #ffffff"/>
    </g>
-   <g id="patch_3">
-    <path d="M 86.3784 383.4 
-L 719.82 383.4 
-L 719.82 221.04 
-L 86.3784 221.04 
-z
-" clip-path="url(#p89c7a95bb6)" style="fill: #dcebe2; stroke: #dcebe2; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_4">
-    <path d="M 86.3784 221.04 
-L 719.82 221.04 
-L 719.82 133.92 
-L 86.3784 133.92 
-z
-" clip-path="url(#p89c7a95bb6)" style="fill: #fff0c7; stroke: #fff0c7; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_5">
-    <path d="M 86.3784 133.92 
-L 719.82 133.92 
-L 719.82 86.4 
-L 86.3784 86.4 
-z
-" clip-path="url(#p89c7a95bb6)" style="fill: #f8d9d4; stroke: #f8d9d4; stroke-linejoin: miter"/>
-   </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
-     <g id="line2d_1"/>
+     <g id="line2d_1">
+      <path d="M 163.959 415.8 
+L 163.959 118.8 
+" clip-path="url(#pc200cc74a9)" style="fill: none; stroke: #e1e1e1; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2"/>
      <g id="text_1">
-      <text style="font-size: 11px; font-family: 'Inter'; text-anchor: middle; fill: #111111" x="102.328368" y="401.05625" transform="rotate(-0 102.328368 401.05625)">Nov '26</text>
+      <text style="font-size: 14px; font-family: 'Inter'; fill: #111111" transform="translate(98.630406 445.3625)">BEFORE THE MOVE</text>
+      <text style="font-size: 14px; font-family: 'Inter'; fill: #111111" transform="translate(131.425406 462.301953)">Nov 2026</text>
      </g>
     </g>
     <g id="xtick_2">
-     <g id="line2d_2"/>
+     <g id="line2d_3">
+      <path d="M 503.874 415.8 
+L 503.874 118.8 
+" clip-path="url(#pc200cc74a9)" style="fill: none; stroke: #e1e1e1; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
      <g id="text_2">
-      <text style="font-size: 11px; font-family: 'Inter'; text-anchor: middle; fill: #111111" x="193.471045" y="401.05625" transform="rotate(-0 193.471045 401.05625)">Jan '27</text>
+      <text style="font-size: 14px; font-family: 'Inter'; fill: #111111" transform="translate(422.628062 445.3625)">AFTER MEMBERS MOVE</text>
+      <text style="font-size: 14px; font-family: 'Inter'; fill: #111111" transform="translate(472.927437 462.301953)">Jan 2027</text>
      </g>
     </g>
     <g id="xtick_3">
-     <g id="line2d_3"/>
-     <g id="text_3">
-      <text style="font-size: 11px; font-family: 'Inter'; text-anchor: middle; fill: #111111" x="284.613721" y="401.05625" transform="rotate(-0 284.613721 401.05625)">Mar</text>
+     <g id="line2d_5">
+      <path d="M 843.789 415.8 
+L 843.789 118.8 
+" clip-path="url(#pc200cc74a9)" style="fill: none; stroke: #e1e1e1; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
-    </g>
-    <g id="xtick_4">
-     <g id="line2d_4"/>
-     <g id="text_4">
-      <text style="font-size: 11px; font-family: 'Inter'; text-anchor: middle; fill: #111111" x="421.327735" y="401.05625" transform="rotate(-0 421.327735 401.05625)">Jun</text>
-     </g>
-    </g>
-    <g id="xtick_5">
-     <g id="line2d_5"/>
-     <g id="text_5">
-      <text style="font-size: 11px; font-family: 'Inter'; text-anchor: middle; fill: #111111" x="558.04175" y="401.05625" transform="rotate(-0 558.04175 401.05625)">Sep</text>
-     </g>
-    </g>
-    <g id="xtick_6">
      <g id="line2d_6"/>
-     <g id="text_6">
-      <text style="font-size: 11px; font-family: 'Inter'; text-anchor: middle; fill: #111111" x="694.755764" y="401.05625" transform="rotate(-0 694.755764 401.05625)">Dec</text>
+     <g id="text_3">
+      <text style="font-size: 14px; font-family: 'Inter'; fill: #111111" transform="translate(788.892594 445.3625)">WITH THE PLAN</text>
+      <text style="font-size: 14px; font-family: 'Inter'; fill: #111111" transform="translate(811.77275 462.301953)">Dec 2027</text>
      </g>
     </g>
    </g>
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
-     <g id="line2d_7"/>
-     <g id="text_7">
-      <text style="font-size: 11px; font-family: 'Inter'; text-anchor: end; fill: #111111" x="79.3784" y="388.728125" transform="rotate(-0 79.3784 388.728125)">$17.00</text>
+     <g id="line2d_7">
+      <path d="M 95.976 383.978571 
+L 911.772 383.978571 
+" clip-path="url(#pc200cc74a9)" style="fill: none; stroke: #e8e8e8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="font-size: 11px; font-family: 'Inter'; text-anchor: end; fill: #111111" x="87.976" y="389.306696" transform="rotate(-0 87.976 389.306696)">$17.50</text>
      </g>
     </g>
     <g id="ytick_2">
-     <g id="line2d_8"/>
-     <g id="text_8">
-      <text style="font-size: 11px; font-family: 'Inter'; text-anchor: end; fill: #111111" x="79.3784" y="314.478125" transform="rotate(-0 79.3784 314.478125)">$17.75</text>
+     <g id="line2d_9">
+      <path d="M 95.976 330.942857 
+L 911.772 330.942857 
+" clip-path="url(#pc200cc74a9)" style="fill: none; stroke: #e8e8e8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <text style="font-size: 11px; font-family: 'Inter'; text-anchor: end; fill: #111111" x="87.976" y="336.270982" transform="rotate(-0 87.976 336.270982)">$18.00</text>
      </g>
     </g>
     <g id="ytick_3">
-     <g id="line2d_9"/>
-     <g id="text_9">
-      <text style="font-size: 11px; font-family: 'Inter'; text-anchor: end; fill: #111111" x="79.3784" y="240.228125" transform="rotate(-0 79.3784 240.228125)">$18.50</text>
+     <g id="line2d_11">
+      <path d="M 95.976 277.907143 
+L 911.772 277.907143 
+" clip-path="url(#pc200cc74a9)" style="fill: none; stroke: #e8e8e8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_6">
+      <text style="font-size: 11px; font-family: 'Inter'; text-anchor: end; fill: #111111" x="87.976" y="283.235268" transform="rotate(-0 87.976 283.235268)">$18.50</text>
      </g>
     </g>
     <g id="ytick_4">
-     <g id="line2d_10"/>
-     <g id="text_10">
-      <text style="font-size: 11px; font-family: 'Inter'; text-anchor: end; fill: #111111" x="79.3784" y="226.368125" transform="rotate(-0 79.3784 226.368125)">$18.64</text>
+     <g id="line2d_13">
+      <path d="M 95.976 224.871429 
+L 911.772 224.871429 
+" clip-path="url(#pc200cc74a9)" style="fill: none; stroke: #e8e8e8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14"/>
+     <g id="text_7">
+      <text style="font-size: 11px; font-family: 'Inter'; text-anchor: end; fill: #111111" x="87.976" y="230.199554" transform="rotate(-0 87.976 230.199554)">$19.00</text>
      </g>
     </g>
     <g id="ytick_5">
-     <g id="line2d_11"/>
-     <g id="text_11">
-      <text style="font-size: 11px; font-family: 'Inter'; text-anchor: end; fill: #111111" x="79.3784" y="139.248125" transform="rotate(-0 79.3784 139.248125)">$19.52</text>
+     <g id="line2d_15">
+      <path d="M 95.976 171.835714 
+L 911.772 171.835714 
+" clip-path="url(#pc200cc74a9)" style="fill: none; stroke: #e8e8e8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16"/>
+     <g id="text_8">
+      <text style="font-size: 11px; font-family: 'Inter'; text-anchor: end; fill: #111111" x="87.976" y="177.163839" transform="rotate(-0 87.976 177.163839)">$19.50</text>
      </g>
     </g>
-    <g id="ytick_6">
-     <g id="line2d_12"/>
-     <g id="text_12">
-      <text style="font-size: 11px; font-family: 'Inter'; text-anchor: end; fill: #111111" x="79.3784" y="91.728125" transform="rotate(-0 79.3784 91.728125)">$20.00</text>
-     </g>
+    <g id="text_9">
+     <text style="font-size: 13px; font-family: 'Inter'; text-anchor: middle; fill: #111111" x="37.98057" y="267.3" transform="rotate(-90 37.98057 267.3)">Fixed cost per remaining member per month</text>
     </g>
-    <g id="text_13">
-     <text style="font-size: 12px; font-family: 'Inter'; text-anchor: middle; fill: #111111" x="29.284962" y="234.9" transform="rotate(-90 29.284962 234.9)">Fixed cost per remaining member / month</text>
-    </g>
-   </g>
-   <g id="line2d_13">
-    <path d="M 86.3784 221.04 
-L 719.82 221.04 
-" clip-path="url(#p89c7a95bb6)" style="fill: none; stroke: #8aae98; stroke-width: 0.9; stroke-linecap: square"/>
-   </g>
-   <g id="line2d_14">
-    <path d="M 86.3784 133.92 
-L 719.82 133.92 
-" clip-path="url(#p89c7a95bb6)" style="fill: none; stroke: #d7b76b; stroke-width: 0.9; stroke-linecap: square"/>
-   </g>
-   <g id="line2d_15">
-    <path d="M 170.685376 383.4 
-L 170.685376 86.4 
-" clip-path="url(#p89c7a95bb6)" style="fill: none; stroke-dasharray: 3.6,3.6; stroke-dashoffset: 0; stroke: #777777; stroke-width: 1.2"/>
-   </g>
-   <g id="patch_6">
-    <path d="M 86.3784 383.4 
-L 719.82 383.4 
-" style="fill: none; stroke: #e1e1e1; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
-   <g id="line2d_16">
-    <path d="M 147.899706 309.348 
-L 193.471045 144.483858 
-L 239.042383 144.483858 
-L 284.613721 144.483858 
-L 330.185059 144.483858 
-L 375.756397 144.483858 
-L 421.327735 144.483858 
-L 466.899073 144.483858 
-L 512.470412 144.483858 
-L 558.04175 144.483858 
-L 603.613088 144.483858 
-L 649.184426 144.483858 
-L 694.755764 144.483858 
-" clip-path="url(#p89c7a95bb6)" style="fill: none; stroke-dasharray: 16.2,10.8; stroke-dashoffset: 0; stroke: #9e3a2f; stroke-width: 2.7"/>
-   </g>
-   <g id="text_14">
-    <text style="font-size: 11px; font-family: 'Inter'; fill: #111111" transform="translate(180.71107 118.83625)">Jan 2027</text>
-    <text style="font-size: 11px; font-family: 'Inter'; fill: #111111" transform="translate(180.71107 132.14582)">members move</text>
-   </g>
-   <g id="text_15">
-    <text style="font-weight: 700; font-size: 11px; font-family: 'Inter'; text-anchor: start; fill: #111111" x="108.328368" y="297.348" transform="rotate(-0 108.328368 297.348)">$17.75 baseline</text>
-   </g>
-   <g id="text_16">
-    <text style="font-weight: 700; font-size: 11px; font-family: 'Inter'; text-anchor: end; fill: #9e3a2f" x="690.755764" y="134.483858" transform="rotate(-0 690.755764 134.483858)">$19.41 without response</text>
-   </g>
-   <g id="text_17">
-    <text style="font-weight: 700; font-size: 11px; font-family: 'Inter'; text-anchor: end; fill: #005030" x="690.755764" y="293.131964" transform="rotate(-0 690.755764 293.131964)">$18.16 in Dec 2027</text>
    </g>
    <g id="line2d_17">
-    <path d="M 102.328368 309.348 
-L 147.899706 309.348 
-L 193.471045 147.918528 
-L 239.042383 151.353197 
-L 284.613721 154.787867 
-L 330.185059 169.213479 
-L 375.756397 183.639092 
-L 421.327735 198.064704 
-L 466.899073 217.985788 
-L 512.470412 237.906872 
-L 558.04175 257.827956 
-L 603.613088 261.262625 
-L 649.184426 264.697295 
-L 694.755764 268.131964 
-" clip-path="url(#p89c7a95bb6)" style="fill: none; stroke: #005030; stroke-width: 3.2; stroke-linecap: square"/>
-    <defs>
-     <path id="m0adfd12943" d="M 0 2.75 
-C 0.729309 2.75 1.428845 2.460243 1.944544 1.944544 
-C 2.460243 1.428845 2.75 0.729309 2.75 0 
-C 2.75 -0.729309 2.460243 -1.428845 1.944544 -1.944544 
-C 1.428845 -2.460243 0.729309 -2.75 0 -2.75 
-C -0.729309 -2.75 -1.428845 -2.460243 -1.944544 -1.944544 
-C -2.460243 -1.428845 -2.75 -0.729309 -2.75 0 
-C -2.75 0.729309 -2.460243 1.428845 -1.944544 1.944544 
-C -1.428845 2.460243 -0.729309 2.75 0 2.75 
-z
-" style="stroke: #005030"/>
-    </defs>
-    <g clip-path="url(#p89c7a95bb6)">
-     <use xlink:href="#m0adfd12943" x="102.328368" y="309.348" style="fill: #005030; stroke: #005030"/>
-     <use xlink:href="#m0adfd12943" x="147.899706" y="309.348" style="fill: #005030; stroke: #005030"/>
-     <use xlink:href="#m0adfd12943" x="193.471045" y="147.918528" style="fill: #005030; stroke: #005030"/>
-     <use xlink:href="#m0adfd12943" x="239.042383" y="151.353197" style="fill: #005030; stroke: #005030"/>
-     <use xlink:href="#m0adfd12943" x="284.613721" y="154.787867" style="fill: #005030; stroke: #005030"/>
-     <use xlink:href="#m0adfd12943" x="330.185059" y="169.213479" style="fill: #005030; stroke: #005030"/>
-     <use xlink:href="#m0adfd12943" x="375.756397" y="183.639092" style="fill: #005030; stroke: #005030"/>
-     <use xlink:href="#m0adfd12943" x="421.327735" y="198.064704" style="fill: #005030; stroke: #005030"/>
-     <use xlink:href="#m0adfd12943" x="466.899073" y="217.985788" style="fill: #005030; stroke: #005030"/>
-     <use xlink:href="#m0adfd12943" x="512.470412" y="237.906872" style="fill: #005030; stroke: #005030"/>
-     <use xlink:href="#m0adfd12943" x="558.04175" y="257.827956" style="fill: #005030; stroke: #005030"/>
-     <use xlink:href="#m0adfd12943" x="603.613088" y="261.262625" style="fill: #005030; stroke: #005030"/>
-     <use xlink:href="#m0adfd12943" x="649.184426" y="264.697295" style="fill: #005030; stroke: #005030"/>
-     <use xlink:href="#m0adfd12943" x="694.755764" y="268.131964" style="fill: #005030; stroke: #005030"/>
-    </g>
+    <path d="M 503.874 181.032705 
+L 843.789 181.032705 
+" clip-path="url(#pc200cc74a9)" style="fill: none; stroke-dasharray: 15,10; stroke-dashoffset: 0; stroke: #a54335; stroke-width: 2.5"/>
    </g>
-  </g>
-  <g id="patch_7">
-   <path d="M 758.2104 143.1 
-L 791.802 143.1 
-L 791.802 110.7 
-L 758.2104 110.7 
-z
-" style="fill: #dcebe2; stroke: #bbbbbb; stroke-linejoin: miter"/>
-  </g>
-  <g id="patch_8">
-   <path d="M 758.2104 202.5 
-L 791.802 202.5 
-L 791.802 170.1 
-L 758.2104 170.1 
-z
-" style="fill: #fff0c7; stroke: #bbbbbb; stroke-linejoin: miter"/>
-  </g>
-  <g id="patch_9">
-   <path d="M 758.2104 261.9 
-L 791.802 261.9 
-L 791.802 229.5 
-L 758.2104 229.5 
-z
-" style="fill: #f8d9d4; stroke: #bbbbbb; stroke-linejoin: miter"/>
-  </g>
-  <g id="text_18">
-   <text style="font-weight: 700; font-size: 20px; font-family: 'Inter'; text-anchor: start; fill: #111111" x="86.3784" y="40.975" transform="rotate(-0 86.3784 40.975)">Financial response: use transition capacity, then retire cost</text>
-  </g>
-  <g id="text_19">
-   <text style="font-size: 13px; font-family: 'Inter'; text-anchor: start; fill: #111111" x="86.3784" y="62.1" transform="rotate(-0 86.3784 62.1)">Illustrative fixed-cost path at IEHP's 119,600-member estimate</text>
-  </g>
-  <g id="text_20">
-   <text style="font-weight: 700; font-size: 12px; font-family: 'Inter'; text-anchor: start; fill: #111111" x="758.2104" y="97.2" transform="rotate(-0 758.2104 97.2)">COLOR BANDS</text>
-  </g>
-  <g id="text_21">
-   <text style="font-weight: 700; font-size: 11px; font-family: 'Inter'; text-anchor: start; fill: #111111" x="801.3996" y="128.37625" transform="rotate(-0 801.3996 128.37625)">Green</text>
-  </g>
-  <g id="text_22">
-   <text style="font-size: 9.5px; font-family: 'Inter'; fill: #111111" transform="translate(801.3996 146.903125)">Up to +5% vs baseline</text>
-   <text style="font-size: 9.5px; font-family: 'Inter'; fill: #111111" transform="translate(801.3996 158.397754)">≤ $18.64 PMPM</text>
-  </g>
-  <g id="text_23">
-   <text style="font-weight: 700; font-size: 11px; font-family: 'Inter'; text-anchor: start; fill: #111111" x="801.3996" y="187.77625" transform="rotate(-0 801.3996 187.77625)">Yellow</text>
-  </g>
-  <g id="text_24">
-   <text style="font-size: 9.5px; font-family: 'Inter'; fill: #111111" transform="translate(801.3996 206.303125)">+5% to +10%</text>
-   <!-- $18.64–$19.52 PMPM -->
-   <g style="fill: #111111" transform="translate(801.3996 217.797754)">
-    <text>
-     <tspan x="0" y="-0.953125" style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #111111">1</tspan>
-     <tspan x="6.044189" y="-0.953125" style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #111111">8</tspan>
-     <tspan x="12.088379" y="-0.953125" style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #111111">.</tspan>
-     <tspan x="15.108154" y="-0.953125" style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #111111">6</tspan>
-     <tspan x="21.152344" y="-0.953125" style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #111111">4</tspan>
-     <tspan x="27.196533" y="-0.953125" style="font-size: 9.5px; font-family: 'DejaVu Sans Display'; fill: #111111">–</tspan>
-     <tspan x="31.946533" y="-0.953125" style="font-size: 9.5px; font-family: 'Inter'; fill: #111111">1</tspan>
-     <tspan x="35.810547" y="-0.953125" style="font-size: 9.5px; font-family: 'Inter'; fill: #111111">9</tspan>
-     <tspan x="41.70166" y="-0.953125" style="font-size: 9.5px; font-family: 'Inter'; fill: #111111">.</tspan>
-     <tspan x="44.438477" y="-0.953125" style="font-size: 9.5px; font-family: 'Inter'; fill: #111111">5</tspan>
-     <tspan x="50.074463" y="-0.953125" style="font-size: 9.5px; font-family: 'Inter'; fill: #111111">2</tspan>
-     <tspan x="55.868164" y="-0.953125" style="font-size: 9.5px; font-family: 'Inter'; fill: #111111"> </tspan>
-     <tspan x="58.540039" y="-0.953125" style="font-size: 9.5px; font-family: 'Inter'; fill: #111111">P</tspan>
-     <tspan x="64.607422" y="-0.953125" style="font-size: 9.5px; font-family: 'Inter'; fill: #111111">M</tspan>
-     <tspan x="73.188965" y="-0.953125" style="font-size: 9.5px; font-family: 'Inter'; fill: #111111">P</tspan>
-     <tspan x="79.256348" y="-0.953125" style="font-size: 9.5px; font-family: 'Inter'; fill: #111111">M</tspan>
-    </text>
-   </g>
-  </g>
-  <g id="text_25">
-   <text style="font-weight: 700; font-size: 11px; font-family: 'Inter'; text-anchor: start; fill: #111111" x="801.3996" y="247.17625" transform="rotate(-0 801.3996 247.17625)">Red</text>
-  </g>
-  <g id="text_26">
-   <text style="font-size: 9.5px; font-family: 'Inter'; fill: #111111" transform="translate(801.3996 265.703125)">Above +10%</text>
-   <text style="font-size: 9.5px; font-family: 'Inter'; fill: #111111" transform="translate(801.3996 277.197754)">&gt; $19.52 PMPM</text>
-  </g>
-  <g id="text_27">
-   <text style="font-weight: 700; font-size: 11px; font-family: 'Inter'; text-anchor: start; fill: #111111" x="758.2104" y="334.8" transform="rotate(-0 758.2104 334.8)">WHAT DRIVES THE DECLINE</text>
-  </g>
-  <g id="text_28">
-   <text style="font-size: 10px; font-family: 'Inter'; fill: #111111" transform="translate(758.2104 347.000391)">Jan: redeploy 30% to handoffs</text>
-   <text style="font-size: 10px; font-family: 'Inter'; fill: #111111" transform="translate(758.2104 359.1)">and 20% to provider checks.</text>
-  </g>
-  <g id="text_29">
-   <text style="font-size: 10px; font-family: 'Inter'; fill: #111111" transform="translate(758.2104 390.200391)">After Mar / Jun: retire lane costs</text>
-   <text style="font-size: 10px; font-family: 'Inter'; fill: #111111" transform="translate(758.2104 402.3)">as that work ends; phase out idle cost.</text>
-  </g>
-  <g id="text_30">
-   <text style="font-size: 9.5px; font-family: 'Inter'; text-anchor: start; fill: #111111" x="86.3784" y="510.3" transform="rotate(-0 86.3784 510.3)">Model assumptions: 60% fixed operating cost (student workbook); lane shares, retirement timing and trigger bands (team placeholders).</text>
-  </g>
-  <g id="text_31">
-   <text style="font-size: 9.5px; font-family: 'Inter'; text-anchor: start; fill: #111111" x="86.3784" y="524.34" transform="rotate(-0 86.3784 524.34)">December is an annualized cost position, not realized 2027 savings or an IEHP forecast.</text>
-  </g>
-  <g id="legend_1">
    <g id="line2d_18">
-    <path d="M 96.2784 421.087109 
-L 109.4784 421.087109 
-L 122.6784 421.087109 
-" style="fill: none; stroke: #005030; stroke-width: 3; stroke-linecap: square"/>
-    <defs>
-     <path id="mf9e8b969c7" d="M 0 3 
-C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
-C 2.683901 1.55874 3 0.795609 3 0 
-C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
-C 1.55874 -2.683901 0.795609 -3 0 -3 
-C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
-C -2.683901 -1.55874 -3 -0.795609 -3 0 
-C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
-C -1.55874 2.683901 -0.795609 3 0 3 
-z
-" style="stroke: #005030"/>
-    </defs>
-    <g>
-     <use xlink:href="#mf9e8b969c7" x="109.4784" y="421.087109" style="fill: #005030; stroke: #005030"/>
-    </g>
+    <path d="M 163.959 357.672857 
+L 503.874 181.032705 
+" clip-path="url(#pc200cc74a9)" style="fill: none; stroke: #444444; stroke-width: 3; stroke-linecap: square"/>
    </g>
-   <g id="text_32">
-    <text style="font-size: 11px; font-family: 'Inter'; text-anchor: start; fill: #111111" x="131.4784" y="424.937109" transform="rotate(-0 131.4784 424.937109)">Closed-loop scenario: redeploy, then retire</text>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 24px; font-family: 'Inter'; text-anchor: middle; fill: #333333" x="163.959" y="339.672857" transform="rotate(-0 163.959 339.672857)">$17.75</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 24px; font-family: 'Inter'; text-anchor: middle; fill: #a54335" x="503.874" y="161.032705" transform="rotate(-0 503.874 161.032705)">$19.41</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 24px; font-family: 'Inter'; text-anchor: middle; fill: #005030" x="843.789" y="356.512819" transform="rotate(-0 843.789 356.512819)">$18.16</text>
+   </g>
+   <g id="text_13">
+    <g id="patch_3">
+     <path d="M 233.803375 263.82231 
+L 434.029625 263.82231 
+L 434.029625 219.863404 
+L 233.803375 219.863404 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 14px; font-family: 'Inter'; fill: #333333" transform="translate(238.843375 238.465904)">+$1.66 when members leave</text>
+    <text style="font-size: 14px; font-family: 'Inter'; fill: #333333" transform="translate(259.038375 255.405357)">and fixed costs remain</text>
+   </g>
+   <g id="text_14">
+    <g id="patch_4">
+     <path d="M 598.0685 255.336596 
+L 783.586 255.336596 
+L 783.586 211.37769 
+L 598.0685 211.37769 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 14px; font-family: 'Inter'; fill: #005030" transform="translate(603.1085 229.98019)">−$1.25 as costs are retired</text>
+    <text style="font-size: 14px; font-family: 'Inter'; fill: #005030" transform="translate(606.416 246.919643)">after transition work ends</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 12px; font-family: 'Inter'; text-anchor: middle; fill: #a54335" x="673.8315" y="166.470317" transform="rotate(-0 673.8315 166.470317)">No cost response: stays at $19.41</text>
    </g>
    <g id="line2d_19">
-    <path d="M 96.2784 439.89668 
-L 109.4784 439.89668 
-L 122.6784 439.89668 
-" style="fill: none; stroke-dasharray: 16.2,10.8; stroke-dashoffset: 0; stroke: #9e3a2f; stroke-width: 2.7"/>
+    <path d="M 503.874 181.032705 
+L 843.789 313.512819 
+" clip-path="url(#pc200cc74a9)" style="fill: none; stroke: #005030; stroke-width: 4; stroke-linecap: square"/>
    </g>
-   <g id="text_33">
-    <text style="font-size: 11px; font-family: 'Inter'; text-anchor: start; fill: #111111" x="131.4784" y="443.74668" transform="rotate(-0 131.4784 443.74668)">No financial response: fixed pool stays in place</text>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="C0_0_e3cd756fff" d="M 0 7.245688 
+C 1.921579 7.245688 3.764714 6.482237 5.123475 5.123475 
+C 6.482237 3.764714 7.245688 1.921579 7.245688 -0 
+C 7.245688 -1.921579 6.482237 -3.764714 5.123475 -5.123475 
+C 3.764714 -6.482237 1.921579 -7.245688 0 -7.245688 
+C -1.921579 -7.245688 -3.764714 -6.482237 -5.123475 -5.123475 
+C -6.482237 -3.764714 -7.245688 -1.921579 -7.245688 0 
+C -7.245688 1.921579 -6.482237 3.764714 -5.123475 5.123475 
+C -3.764714 6.482237 -1.921579 7.245688 0 7.245688 
+z
+"/>
+    </defs>
+    <g clip-path="url(#pc200cc74a9)">
+     <use xlink:href="#C0_0_e3cd756fff" x="163.959" y="357.672857" style="fill: #444444; stroke: #ffffff; stroke-width: 2"/>
+    </g>
+    <g clip-path="url(#pc200cc74a9)">
+     <use xlink:href="#C0_0_e3cd756fff" x="503.874" y="181.032705" style="fill: #a54335; stroke: #ffffff; stroke-width: 2"/>
+    </g>
+    <g clip-path="url(#pc200cc74a9)">
+     <use xlink:href="#C0_0_e3cd756fff" x="843.789" y="313.512819" style="fill: #005030; stroke: #ffffff; stroke-width: 2"/>
+    </g>
    </g>
+  </g>
+  <g id="text_16">
+   <text style="font-weight: 700; font-size: 23px; font-family: 'Inter'; text-anchor: start; fill: #111111" x="95.976" y="54.68125" transform="rotate(-0 95.976 54.68125)">Why fixed cost rises — and how the plan brings it down</text>
+  </g>
+  <g id="text_17">
+   <text style="font-size: 13px; font-family: 'Inter'; text-anchor: start; fill: #111111" x="95.976" y="75.6" transform="rotate(-0 95.976 75.6)">Illustrative scenario using IEHP's estimate of 119,600 transitioning members</text>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 10.5px; font-family: 'Inter'; text-anchor: start; fill: #111111" x="95.976" y="499.5" transform="rotate(-0 95.976 499.5)">The December result assumes IEHP retires costs after using some existing capacity for handoffs and provider checks.</text>
+  </g>
+  <g id="text_19">
+   <text style="font-size: 9.5px; font-family: 'Inter'; text-anchor: start; fill: #555555" x="95.976" y="515.7" transform="rotate(-0 95.976 515.7)">Fixed share (60%) is from the student workbook; timing and retirement pace are team assumptions, not IEHP forecasts.</text>
   </g>
  </g>
  <defs>
-  <clipPath id="p89c7a95bb6">
-   <rect x="86.3784" y="86.4" width="633.4416" height="297"/>
+  <clipPath id="pc200cc74a9">
+   <rect x="95.976" y="118.8" width="815.796" height="297"/>
   </clipPath>
  </defs>
 </svg>
